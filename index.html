@@ -249,7 +249,7 @@
   <!-- SHOWDOWN TAB -->
   <section class="view fade-in" id="view-showdown">
     <div class="section-label">Sponsor Showdown · <span id="showdown-div-lbl">MPO</span></div>
-    <div class="card" style="font-size:12px;color:var(--muted);padding:10px 14px;margin-bottom:4px;">Avg points of each brand's top 5 players in the world standings</div>
+    <div class="card" style="font-size:12px;color:var(--muted);padding:10px 14px;margin-bottom:4px;">Wins · then avg points of each brand's top 3 players in the world standings</div>
     <div class="card" id="showdown-content"><div class="loading"><div class="spinner"></div> Loading...</div></div>
   </section>
 
@@ -572,11 +572,11 @@ function renderShowdown() {
   const showdown = Object.entries(brands)
     .filter(([n]) => n !== "Unknown")
     .map(([brand, players]) => {
-      const top5 = [...players].sort((a,b) => b.points - a.points).slice(0,5);
+      const top5 = [...players].sort((a,b) => b.points - a.points).slice(0,3);
       const avg = top5.reduce((s,p) => s + p.points, 0) / top5.length;
       const wins = players.reduce((s,p) => s + p.wins, 0);
-      const topNames = top5.slice(0,3).map(p => p.name.split(" ").pop()).join(", ");
-      const extra = top5.length > 3 ? ` +${top5.length - 3}` : "";
+      const topNames = top5.map(p => p.name.split(" ").pop()).join(", ");
+      const extra = "";
       return { brand, avg, wins, topNames, extra, count: top5.length };
     })
     .sort((a,b) => {
