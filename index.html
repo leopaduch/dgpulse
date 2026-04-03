@@ -493,42 +493,30 @@ function renderCup() {
   if (!standings) return;
   const d = standings[currentDiv];
   if (!d) return;
-
   document.getElementById("cup-div-lbl").textContent = currentDiv;
 
   const brands = {};
   d.forEach(p => {
     const s = p.sponsor || "Unknown";
-    if (!brands[s]) brands[s] = { players: [] };
-    brands[s].players.push(p);
+    if (!brands[s]) brands[s] = [];
+    brands[s].push(p);
   });
 
   const sorted = Object.entries(brands)
-    .filter(([name]) => name !== "Unknown")
-    .sort((a, b) => {
-      const aTop = Math.max(...a[1].players.map(p => p.points));
-      const bTop = Math.max(...b[1].players.map(p => p.points));
-      return bTop - aTop;
-    });
+    .filter(([n]) => n !== "Unknown")
+    .sort((a, b) => Math.max(...b[1].map(p=>p.points)) - Math.max(...a[1].map(p=>p.points)));
 
-  document.getElementById("cup-content").innerHTML = sorted.map(([brand, data]) => {
-    const players = [...data.players].sort((a, b) => b.points - a.points);
-    const totalPts = players.reduce((sum, p) => sum + p.points, 0);
-    const totalWins = players.reduce((sum, p) => sum + p.wins, 0);
-    const brandId = brand.replace(/\s+/g, '-').toLowerCase();
+  const winsBadge = (wins) => wins > 0 ? `<div class="wins-badge" style="width:20px;height:20px;margin-left:6px;"><svg viewBox="0 0 24 24" fill="none" style="width:11px;height:11px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)"><path d="M8 21h8M12 17v4M6 3h12l-1 8a5 5 0 01-10 0L6 3z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 7H3a2 2 0 000 4c0 2 1.5 3.5 3 4M18 7h3a2 2 0 010 4c0 2-1.5 3.5-3 4" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/></svg><span class="win-count" style="width:11px;height:11px;font-size:8px;">${wins}</span></div>` : "";
 
-    const winsBadge = (wins) => wins > 0 ? `
-      <div class="wins-badge" style="width:20px;height:20px;margin-left:6px;">
-        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:11px;height:11px;">
-          <path d="M8 21h8M12 17v4M6 3h12l-1 8a5 5 0 01-10 0L6 3z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <path d="M6 7H3a2 2 0 000 4c0 2 1.5 3.5 3 4M18 7h3a2 2 0 010 4c0 2-1.5 3.5-3 4" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
-        </svg>
-        <span class="win-count" style="width:11px;height:11px;font-size:8px;">${wins}</span>
-      </div>` : "";
+  document.getElementById("cup-content").innerHTML = sorted.map(([brand, players]) => {
+    players = [...players].sort((a,b) => b.points - a.points);
+    const totalPts = players.reduce((s,p) => s + p.points, 0);
+    const totalWins = players.reduce((s,p) => s + p.wins, 0);
+    const id = "cup-" + brand.replace(/\s+/g,"-").toLowerCase();
 
-    const playerRows = players.map((p, i) => `
+    const rows = players.map((p,i) => `
       <div class="standing-row" style="padding:8px 14px;">
-        <div class="rank-num ${i===0?'gold':''}" style="width:18px;font-size:14px;">${i + 1}</div>
+        <div class="rank-num ${i===0?"gold":""}" style="font-size:14px;">${i+1}</div>
         <div class="player-col">
           <div class="player-name-row">
             <div class="player-name" style="font-size:14px;">${p.name}</div>
@@ -541,23 +529,22 @@ function renderCup() {
         </div>
       </div>`).join("");
 
-    return `
-      <div class="brand-group collapsed" id="brand-${brandId}">
-        <div class="brand-header" onclick="toggleBrand('${brandId}')">
-          <div class="player-col">
-            <div class="player-name">${brand}</div>
-            <div class="player-sub">${players.length} player${players.length!==1?"s":""} · ${totalWins} win${totalWins!==1?"s":""}</div>
-          </div>
-          <div class="pts-col">
-            <div class="pts-main">${rnd(totalPts)}</div>
-            <div class="player-sub">total pts</div>
-          </div>
-          <div class="brand-chevron">›</div>
+    return `<div style="background:var(--card);border-radius:14px;border:1px solid var(--border);overflow:hidden;margin-bottom:8px;">
+      <div onclick="toggleCup('${id}')" style="display:flex;align-items:center;gap:10px;padding:12px 14px;cursor:pointer;border-bottom:1px solid var(--border);" id="${id}-header">
+        <div style="flex:1;">
+          <div style="font-family:var(--font-d);font-size:17px;font-weight:800;color:var(--text);">${brand}</div>
+          <div style="font-size:11px;color:var(--muted);">${players.length} player${players.length!==1?"s":""} · ${totalWins} win${totalWins!==1?"s":""}</div>
         </div>
-        <div class="brand-players">
-          ${playerRows}
+        <div style="text-align:right;margin-right:8px;">
+          <div style="font-family:var(--font-d);font-size:17px;font-weight:800;color:var(--accent);">${rnd(totalPts)}</div>
+          <div style="font-size:11px;color:var(--muted);">total pts</div>
         </div>
-      </div>`;
+        <div id="${id}-chevron" style="color:var(--muted);font-size:18px;transform:rotate(0deg);transition:transform 0.2s;">›</div>
+      </div>
+      <div id="${id}-body" style="overflow:hidden;max-height:0;transition:max-height 0.3s ease;">
+        ${rows}
+      </div>
+    </div>`;
   }).join("");
 }
 
@@ -612,9 +599,21 @@ function renderShowdown() {
   }).join("");
 }
 
-function toggleBrand(id) {
-  const el = document.getElementById("brand-" + id);
-  if (el) el.classList.toggle("collapsed");
+function toggleCup(id) {
+  const body = document.getElementById(id + "-body");
+  const chevron = document.getElementById(id + "-chevron");
+  const header = document.getElementById(id + "-header");
+  if (!body) return;
+  const isOpen = body.style.maxHeight !== "0px" && body.style.maxHeight !== "";
+  if (isOpen) {
+    body.style.maxHeight = "0px";
+    chevron.style.transform = "rotate(0deg)";
+    header.style.borderBottom = "none";
+  } else {
+    body.style.maxHeight = body.scrollHeight + "px";
+    chevron.style.transform = "rotate(90deg)";
+    header.style.borderBottom = "1px solid var(--border)";
+  }
 }
 
 loadData();
