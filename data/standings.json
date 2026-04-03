@@ -1,7 +1,7 @@
 {
   "updated": "2026-04-03",
   "week": "2026-14",
-  "note": "After Queen City Classic \u2014 3 events complete",
+  "note": "After Queen City Classic — 3 events complete",
   "MPO": [
     {
       "rank": 1,
@@ -389,7 +389,7 @@
     },
     {
       "rank": 33,
-      "name": "Jakub Semer\u00e1d",
+      "name": "Jakub Semerád",
       "points": 104.5,
       "pointsGain": 18.5,
       "wins": 0,
@@ -901,7 +901,7 @@
       "starts": 2,
       "qualified": false,
       "sponsor": "Thought Space Athletics",
-      "sponsorLogo": ""
+      "sponsorLogo": "/logo/thoughtspace.png"
     },
     {
       "rank": 76,
@@ -977,7 +977,7 @@
     },
     {
       "rank": 82,
-      "name": "V\u00e4in\u00f6 M\u00e4kel\u00e4",
+      "name": "Väinö Mäkelä",
       "points": 25,
       "pointsGain": 25,
       "wins": 0,
@@ -1239,7 +1239,7 @@
       "starts": 3,
       "qualified": true,
       "sponsor": "Innova",
-      "sponsorLogo": "/logo/innova.png"
+      "sponsorLogo": "/logo/innova.jpg"
     },
     {
       "rank": 4,
@@ -1575,7 +1575,7 @@
       "starts": 3,
       "qualified": false,
       "sponsor": "Thought Space Athletics",
-      "sponsorLogo": ""
+      "sponsorLogo": "/logo/thoughtspace.png"
     },
     {
       "rank": 31,
@@ -1611,7 +1611,7 @@
       "starts": 3,
       "qualified": false,
       "sponsor": "Thought Space Athletics",
-      "sponsorLogo": ""
+      "sponsorLogo": "/logo/thoughtspace.png"
     },
     {
       "rank": 35,
@@ -1699,7 +1699,7 @@
     },
     {
       "rank": 41,
-      "name": "Anneli T\u00f5ugjas-M\u00e4nniste",
+      "name": "Anneli Tõugjas-Männiste",
       "points": 51,
       "pointsGain": 51,
       "wins": 0,
