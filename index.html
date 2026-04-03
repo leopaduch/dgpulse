@@ -560,50 +560,42 @@ function renderShowdown() {
   if (!standings) return;
   const d = standings[currentDiv];
   if (!d) return;
-
   document.getElementById("showdown-div-lbl").textContent = currentDiv;
 
-  // Group by sponsor
   const brands = {};
   d.forEach(p => {
     const s = p.sponsor || "Unknown";
-    if (!brands[s]) brands[s] = { players: [], logo: p.sponsorLogo || "" };
-    brands[s].players.push(p);
+    if (!brands[s]) brands[s] = [];
+    brands[s].push(p);
   });
 
-  // For each brand: take top 5 players by points, compute average
   const showdown = Object.entries(brands)
-    .filter(([name]) => name !== "Unknown")
-    .map(([brand, data]) => {
-      const top5 = [...data.players].sort((a, b) => b.points - a.points).slice(0, 5);
-      const avg = top5.reduce((sum, p) => sum + p.points, 0) / top5.length;
-      const wins = top5.reduce((sum, p) => sum + p.wins, 0);
-      return { brand, logo: data.logo, avg, wins, count: top5.length, players: top5 };
+    .filter(([n]) => n !== "Unknown")
+    .map(([brand, players]) => {
+      const top5 = [...players].sort((a,b) => b.points - a.points).slice(0,5);
+      const avg = top5.reduce((s,p) => s + p.points, 0) / top5.length;
+      const wins = players.reduce((s,p) => s + p.wins, 0);
+      const topNames = top5.slice(0,3).map(p => p.name.split(" ").pop()).join(", ");
+      const extra = top5.length > 3 ? ` +${top5.length - 3}` : "";
+      return { brand, avg, wins, topNames, extra, count: top5.length };
     })
-    .sort((a, b) => b.avg - a.avg)
-    .slice(0, 10);
+    .sort((a,b) => b.avg - a.avg)
+    .slice(0,10);
 
-  const rankClass = i => i === 0 ? "gold" : i === 1 ? "silver" : i === 2 ? "bronze" : "";
+  const rankCls = i => i===0?"gold":i===1?"silver":i===2?"bronze":"";
 
-  document.getElementById("showdown-content").innerHTML = showdown.map((b, i) => {
-    const logoHtml = b.logo
-      ? `<div class="showdown-logo"><img src="${b.logo}" alt="${b.brand}"></div>`
-      : `<div class="showdown-logo" style="background:rgba(24,144,255,0.15);"><span style="font-family:var(--font-d);font-size:11px;font-weight:800;color:var(--accent);">${b.brand.slice(0,2).toUpperCase()}</span></div>`;
-    const topNames = b.players.slice(0,3).map(p => p.name.split(" ").pop()).join(", ");
-    return `
-      <div class="showdown-row">
-        <div class="showdown-rank ${rankClass(i)}">${i + 1}</div>
-        ${logoHtml}
-        <div class="showdown-info">
-          <div class="showdown-brand">${b.brand}</div>
-          <div class="showdown-sub">${topNames}${b.count > 3 ? ` +${b.count-3}` : ""}</div>
-        </div>
-        <div class="showdown-score">
-          <div class="showdown-avg">${b.avg.toFixed(1)}</div>
-          <div class="showdown-wins"><span>${b.wins}W</span> avg pts</div>
-        </div>
-      </div>`;
-  }).join("");
+  document.getElementById("showdown-content").innerHTML = showdown.map((b,i) => `
+    <div class="standing-row" style="padding:10px 14px;">
+      <div class="rank-num ${rankCls(i)}" style="font-size:18px;width:24px;">${i+1}</div>
+      <div class="player-col">
+        <div class="player-name" style="font-size:15px;">${b.brand}</div>
+        <div class="player-sub">${b.topNames}${b.extra}</div>
+      </div>
+      <div class="pts-col">
+        <div class="pts-main" style="font-size:18px;">${b.avg.toFixed(1)}</div>
+        <div class="pts-gain">${b.wins}W</div>
+      </div>
+    </div>`).join("");
 }
 
 function toggleCup(id) {
