@@ -1,7 +1,7 @@
 {
   "updated": "2026-04-03",
   "week": "2026-14",
-  "note": "After Queen City Classic — 3 events complete",
+  "note": "After Queen City Classic \u2014 3 events complete",
   "MPO": [
     {
       "rank": 1,
@@ -300,8 +300,8 @@
       "top10s": 0,
       "starts": 3,
       "qualified": true,
-      "sponsor": "DD",
-      "sponsorLogo": ""
+      "sponsor": "Dynamic Discs",
+      "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
       "rank": 26,
@@ -389,15 +389,15 @@
     },
     {
       "rank": 33,
-      "name": "Jakub Semerád",
+      "name": "Jakub Semer\u00e1d",
       "points": 104.5,
       "pointsGain": 18.5,
       "wins": 0,
       "top10s": 0,
       "starts": 3,
       "qualified": false,
-      "sponsor": "Latitude64",
-      "sponsorLogo": ""
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
     },
     {
       "rank": 34,
@@ -408,8 +408,8 @@
       "top10s": 0,
       "starts": 3,
       "qualified": false,
-      "sponsor": "DD",
-      "sponsorLogo": ""
+      "sponsor": "Dynamic Discs",
+      "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
       "rank": 35,
@@ -828,8 +828,8 @@
       "top10s": 0,
       "starts": 3,
       "qualified": false,
-      "sponsor": "Latitude64",
-      "sponsorLogo": ""
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
     },
     {
       "rank": 70,
@@ -900,7 +900,7 @@
       "top10s": 0,
       "starts": 2,
       "qualified": false,
-      "sponsor": "ThoughtSpace",
+      "sponsor": "Thought Space Athletics",
       "sponsorLogo": ""
     },
     {
@@ -936,7 +936,7 @@
       "top10s": 0,
       "starts": 3,
       "qualified": false,
-      "sponsor": "OTB",
+      "sponsor": "OTB Disc Golf",
       "sponsorLogo": ""
     },
     {
@@ -977,7 +977,7 @@
     },
     {
       "rank": 82,
-      "name": "Väinö Mäkelä",
+      "name": "V\u00e4in\u00f6 M\u00e4kel\u00e4",
       "points": 25,
       "pointsGain": 25,
       "wins": 0,
@@ -1104,8 +1104,8 @@
       "top10s": 0,
       "starts": 2,
       "qualified": false,
-      "sponsor": "DD",
-      "sponsorLogo": ""
+      "sponsor": "Dynamic Discs",
+      "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
       "rank": 93,
@@ -1562,8 +1562,8 @@
       "top10s": 0,
       "starts": 2,
       "qualified": false,
-      "sponsor": "DD",
-      "sponsorLogo": ""
+      "sponsor": "Dynamic Discs",
+      "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
       "rank": 31,
@@ -1574,7 +1574,7 @@
       "top10s": 0,
       "starts": 3,
       "qualified": false,
-      "sponsor": "ThoughtSpace",
+      "sponsor": "Thought Space Athletics",
       "sponsorLogo": ""
     },
     {
@@ -1610,7 +1610,7 @@
       "top10s": 0,
       "starts": 3,
       "qualified": false,
-      "sponsor": "ThoughtSpace",
+      "sponsor": "Thought Space Athletics",
       "sponsorLogo": ""
     },
     {
@@ -1699,7 +1699,7 @@
     },
     {
       "rank": 41,
-      "name": "Anneli Tõugjas-Männiste",
+      "name": "Anneli T\u00f5ugjas-M\u00e4nniste",
       "points": 51,
       "pointsGain": 51,
       "wins": 0,
@@ -1730,7 +1730,7 @@
       "top10s": 0,
       "starts": 2,
       "qualified": false,
-      "sponsor": "OTB",
+      "sponsor": "OTB Disc Golf",
       "sponsorLogo": ""
     },
     {
