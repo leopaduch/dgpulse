@@ -40,30 +40,19 @@ async function fetchPlayerSponsor(slug) {
     const html = await res.text();
     const $ = cheerio.load(html);
 
-    // StatMando shows sponsor logo with alt text = sponsor name
-    // Look for img with class or in sponsor section
+    // StatMando stores sponsor logo at /images/team/{SponsorName}.png
+    // Extract the sponsor name from the image filename
     let sponsor = null;
 
-    // Method 1: sponsor logo img alt text
     $('img').each((_, el) => {
-      const alt = $(el).attr('alt') || '';
       const src = $(el).attr('src') || '';
-      if (src.includes('/images/team/') && alt) {
-        sponsor = alt.trim();
-        return false; // break
+      const match = src.match(/\/images\/team\/([^.]+)\.png/i);
+      if (match) {
+        // Convert filename to readable name e.g. "Dynamic_Discs" -> "Dynamic Discs"
+        sponsor = match[1].replace(/_/g, ' ').trim();
+        return false; // break on first match
       }
     });
-
-    // Method 2: look for text near sponsor labels
-    if (!sponsor) {
-      $('*').each((_, el) => {
-        const text = $(el).text().trim();
-        if (text.match(/^(Discmania|Discraft|Innova|MVP|Latitude 64|Dynamic Discs|DGA|Prodigy|Kastaplast|Westside|Thought Space|Axiom|Streamline|Mint|RPM)$/i)) {
-          sponsor = text.trim();
-          return false;
-        }
-      });
-    }
 
     return sponsor;
   } catch(e) {
@@ -100,7 +89,7 @@ async function fetchDivision(div) {
     if (cells.length < 8) return;
 
     const rank       = parseInt($(cells[0]).text().trim(), 10);
-    const name       = $(cells[2]).text().trim();
+    const name       = $(cells[2]).text().trim().replace(/[*†‡]/g, '').trim();
     const points     = parseFloat($(cells[3]).text().trim().replace(',', ''));
     const pointsGain = parseFloat($(cells[4]).text().trim().replace(',', '')) || 0;
     const starts     = parseInt($(cells[5]).text().trim(), 10) || 0;
