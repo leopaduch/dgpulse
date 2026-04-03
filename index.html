@@ -188,6 +188,8 @@
     <div class="nav-tab" onclick="showView('standings',this)">Standings</div>
     <div class="nav-tab" onclick="showView('calendar',this)">Calendar</div>
     <div class="nav-tab" onclick="showView('players',this)">Players</div>
+    <div class="nav-tab" onclick="showView('cup',this)">Cup</div>
+    <div class="nav-tab" onclick="showView('showdown',this)">Showdown</div>
   </nav>
 </header>
 
@@ -237,6 +239,20 @@
     <div class="card" id="player-detail" style="display:none"></div>
   </section>
 
+
+  <!-- CUP TAB -->
+  <section class="view fade-in" id="view-cup">
+    <div class="section-label">Manufacturer Cup · <span id="cup-div-lbl">MPO</span></div>
+    <div id="cup-content"><div class="loading"><div class="spinner"></div> Loading...</div></div>
+  </section>
+
+  <!-- SHOWDOWN TAB -->
+  <section class="view fade-in" id="view-showdown">
+    <div class="section-label">Sponsor Showdown · <span id="showdown-div-lbl">MPO</span></div>
+    <div class="card" style="font-size:12px;color:var(--muted);padding:10px 14px;margin-bottom:4px;">Avg points of each brand's top 5 players in the world standings</div>
+    <div class="card" id="showdown-content"><div class="loading"><div class="spinner"></div> Loading...</div></div>
+  </section>
+
 </main>
 
 <nav class="bottom-nav">
@@ -244,6 +260,8 @@
   <div class="bnav" onclick="showView('standings',null,'b')"><div class="bnav-icon">◈</div><div class="bnav-label">Standings</div></div>
   <div class="bnav" onclick="showView('calendar',null,'b')"><div class="bnav-icon">◷</div><div class="bnav-label">Calendar</div></div>
   <div class="bnav" onclick="showView('players',null,'b')"><div class="bnav-icon">◎</div><div class="bnav-label">Players</div></div>
+  <div class="bnav" onclick="showView('cup',null,'b')"><div class="bnav-icon">◉</div><div class="bnav-label">Cup</div></div>
+  <div class="bnav" onclick="showView('showdown',null,'b')"><div class="bnav-icon">◐</div><div class="bnav-label">Showdown</div></div>
 </nav>
 
 <script>
@@ -447,7 +465,6 @@ function setDiv(div, btn) {
   document.querySelectorAll(".div-btn").forEach(b => b.classList.remove("active"));
   btn.classList.add("active");
   document.getElementById("player-detail").style.display = "none";
-  // Switch color theme
   if (div === "FPO") {
     document.documentElement.classList.add("fpo");
   } else {
@@ -455,16 +472,139 @@ function setDiv(div, btn) {
   }
   renderAll();
   renderCalendar();
+  renderCup();
+  renderShowdown();
 }
 
 function showView(view, tabEl) {
-  const views = ["home","standings","calendar","players"];
+  const views = ["home","standings","calendar","players","cup","showdown"];
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById("view-"+view).classList.add("active");
   document.querySelectorAll(".nav-tab").forEach(t => t.classList.remove("active"));
   document.querySelectorAll(".nav-tab")[views.indexOf(view)]?.classList.add("active");
   document.querySelectorAll(".bnav").forEach(b => b.classList.remove("active"));
   document.querySelectorAll(".bnav")[views.indexOf(view)]?.classList.add("active");
+  if (view === "cup") renderCup();
+  if (view === "showdown") renderShowdown();
+}
+
+// ── Manufacturer Cup ──────────────────────────────────────────
+function renderCup() {
+  if (!standings) return;
+  const d = standings[currentDiv];
+  if (!d) return;
+
+  document.getElementById("cup-div-lbl").textContent = currentDiv;
+
+  // Group players by sponsor
+  const brands = {};
+  d.forEach(p => {
+    const s = p.sponsor || "Unknown";
+    if (!brands[s]) brands[s] = { players: [], logo: p.sponsorLogo || "" };
+    brands[s].players.push(p);
+  });
+
+  // Sort brands by their top player's points
+  const sorted = Object.entries(brands)
+    .filter(([name]) => name !== "Unknown")
+    .sort((a, b) => {
+      const aTop = Math.max(...a[1].players.map(p => p.points));
+      const bTop = Math.max(...b[1].players.map(p => p.points));
+      return bTop - aTop;
+    });
+
+  document.getElementById("cup-content").innerHTML = sorted.map(([brand, data]) => {
+    const players = [...data.players].sort((a, b) => b.points - a.points);
+    const logoHtml = data.logo
+      ? `<div class="brand-logo"><img src="${data.logo}" alt="${brand}"></div>`
+      : `<div class="brand-logo-fallback">${brand.slice(0,2).toUpperCase()}</div>`;
+
+    const totalPts = players.reduce((sum, p) => sum + p.points, 0);
+    const totalWins = players.reduce((sum, p) => sum + p.wins, 0);
+
+    const playerRows = players.map((p, i) => `
+      <div class="brand-player-row">
+        <div class="brand-player-rank">${i + 1}</div>
+        <div class="brand-player-name">${p.name}${p.wins > 0 ? ` <span style="color:#fd9d2c;font-size:11px;">${p.wins}W</span>` : ""}</div>
+        <div style="text-align:right">
+          <div class="brand-player-pts">${rnd(p.points)}</div>
+          <div class="brand-world-rank">Rank #${p.rank}</div>
+        </div>
+      </div>`).join("");
+
+    const brandId = brand.replace(/\s+/g, '-').toLowerCase();
+    return `
+      <div class="brand-group" id="brand-${brandId}">
+        <div class="brand-header" onclick="toggleBrand('${brandId}')">
+          ${logoHtml}
+          <div class="brand-name">${brand}</div>
+          <div style="text-align:right;flex:1">
+            <div class="brand-total">${rnd(totalPts)}</div>
+            <div class="brand-player-count">${players.length} player${players.length!==1?"s":""} · ${totalWins}W</div>
+          </div>
+          <div class="brand-chevron">›</div>
+        </div>
+        <div class="brand-players" style="max-height:${players.length * 60}px">
+          ${playerRows}
+        </div>
+      </div>`;
+  }).join("");
+}
+
+// ── Sponsor Showdown ──────────────────────────────────────────
+function renderShowdown() {
+  if (!standings) return;
+  const d = standings[currentDiv];
+  if (!d) return;
+
+  document.getElementById("showdown-div-lbl").textContent = currentDiv;
+
+  // Group by sponsor
+  const brands = {};
+  d.forEach(p => {
+    const s = p.sponsor || "Unknown";
+    if (!brands[s]) brands[s] = { players: [], logo: p.sponsorLogo || "" };
+    brands[s].players.push(p);
+  });
+
+  // For each brand: take top 5 players by points, compute average
+  const showdown = Object.entries(brands)
+    .filter(([name]) => name !== "Unknown")
+    .map(([brand, data]) => {
+      const top5 = [...data.players].sort((a, b) => b.points - a.points).slice(0, 5);
+      const avg = top5.reduce((sum, p) => sum + p.points, 0) / top5.length;
+      const wins = top5.reduce((sum, p) => sum + p.wins, 0);
+      return { brand, logo: data.logo, avg, wins, count: top5.length, players: top5 };
+    })
+    .sort((a, b) => b.avg - a.avg)
+    .slice(0, 10);
+
+  const rankClass = i => i === 0 ? "gold" : i === 1 ? "silver" : i === 2 ? "bronze" : "";
+
+  document.getElementById("showdown-content").innerHTML = showdown.map((b, i) => {
+    const logoHtml = b.logo
+      ? `<div class="showdown-logo"><img src="${b.logo}" alt="${b.brand}"></div>`
+      : `<div class="showdown-logo" style="background:rgba(24,144,255,0.15);"><span style="font-family:var(--font-d);font-size:11px;font-weight:800;color:var(--accent);">${b.brand.slice(0,2).toUpperCase()}</span></div>`;
+    const topNames = b.players.slice(0,3).map(p => p.name.split(" ").pop()).join(", ");
+    return `
+      <div class="showdown-row">
+        <div class="showdown-rank ${rankClass(i)}">${i + 1}</div>
+        ${logoHtml}
+        <div class="showdown-info">
+          <div class="showdown-brand">${b.brand}</div>
+          <div class="showdown-sub">${topNames}${b.count > 3 ? ` +${b.count-3}` : ""}</div>
+        </div>
+        <div class="showdown-score">
+          <div class="showdown-avg">${b.avg.toFixed(1)}</div>
+          <div class="showdown-wins"><span>${b.wins}W</span> avg pts</div>
+        </div>
+      </div>`;
+  }).join("");
+}
+
+function toggleBrand(id) {
+  const el = document.getElementById("brand-" + id);
+  if (el) el.classList.toggle("collapsed");
 }
 
 loadData();
