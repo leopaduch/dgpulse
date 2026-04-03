@@ -5,27 +5,27 @@
   "MPO": [
     {
       "rank": 1,
-      "name": "Gannon Buhr*",
+      "name": "Gannon Buhr",
       "points": 425,
       "pointsGain": 150,
       "wins": 2,
       "top10s": 3,
       "starts": 3,
       "qualified": true,
-      "sponsor": "Logo for player sponsor",
-      "sponsorLogo": ""
+      "sponsor": "Discmania",
+      "sponsorLogo": "https://cdn.brandfetch.io/discmania.net/w/400/h/400/logo"
     },
     {
       "rank": 2,
-      "name": "Richard Wysocki*",
+      "name": "Richard Wysocki",
       "points": 311,
       "pointsGain": 36,
       "wins": 1,
       "top10s": 2,
       "starts": 3,
       "qualified": true,
-      "sponsor": "Logo for player sponsor",
-      "sponsorLogo": ""
+      "sponsor": "Discraft",
+      "sponsorLogo": "https://cdn.brandfetch.io/discraft.com/w/400/h/400/logo"
     },
     {
       "rank": 3,
@@ -1819,39 +1819,39 @@
   "FPO": [
     {
       "rank": 1,
-      "name": "Ohn Scoggins*",
+      "name": "Ohn Scoggins",
       "points": 376,
       "pointsGain": 125,
       "wins": 1,
       "top10s": 3,
       "starts": 3,
       "qualified": true,
-      "sponsor": "Logo for player sponsor",
-      "sponsorLogo": ""
+      "sponsor": "Innova",
+      "sponsorLogo": "https://cdn.brandfetch.io/innovadiscs.com/w/400/h/400/logo"
     },
     {
       "rank": 2,
-      "name": "Holyn Handley*",
+      "name": "Holyn Handley",
       "points": 375.67,
       "pointsGain": 105.67,
       "wins": 1,
       "top10s": 3,
       "starts": 3,
       "qualified": true,
-      "sponsor": "Logo for player sponsor",
-      "sponsorLogo": ""
+      "sponsor": "Discraft",
+      "sponsorLogo": "https://cdn.brandfetch.io/discraft.com/w/400/h/400/logo"
     },
     {
       "rank": 3,
-      "name": "Jessica Gurthie*",
+      "name": "Jessica Gurthie",
       "points": 320.5,
       "pointsGain": 150,
       "wins": 1,
       "top10s": 3,
       "starts": 3,
       "qualified": true,
-      "sponsor": "Logo for player sponsor",
-      "sponsorLogo": ""
+      "sponsor": "Innova",
+      "sponsorLogo": "https://cdn.brandfetch.io/innovadiscs.com/w/400/h/400/logo"
     },
     {
       "rank": 4,
