@@ -496,15 +496,13 @@ function renderCup() {
 
   document.getElementById("cup-div-lbl").textContent = currentDiv;
 
-  // Group players by sponsor
   const brands = {};
   d.forEach(p => {
     const s = p.sponsor || "Unknown";
-    if (!brands[s]) brands[s] = { players: [], logo: p.sponsorLogo || "" };
+    if (!brands[s]) brands[s] = { players: [] };
     brands[s].players.push(p);
   });
 
-  // Sort brands by their top player's points
   const sorted = Object.entries(brands)
     .filter(([name]) => name !== "Unknown")
     .sort((a, b) => {
@@ -515,36 +513,48 @@ function renderCup() {
 
   document.getElementById("cup-content").innerHTML = sorted.map(([brand, data]) => {
     const players = [...data.players].sort((a, b) => b.points - a.points);
-    const logoHtml = data.logo
-      ? `<div class="brand-logo"><img src="${data.logo}" alt="${brand}"></div>`
-      : `<div class="brand-logo-fallback">${brand.slice(0,2).toUpperCase()}</div>`;
-
     const totalPts = players.reduce((sum, p) => sum + p.points, 0);
     const totalWins = players.reduce((sum, p) => sum + p.wins, 0);
+    const brandId = brand.replace(/\s+/g, '-').toLowerCase();
+
+    const winsBadge = (wins) => wins > 0 ? `
+      <div class="wins-badge" style="width:20px;height:20px;margin-left:6px;">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style="width:11px;height:11px;">
+          <path d="M8 21h8M12 17v4M6 3h12l-1 8a5 5 0 01-10 0L6 3z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M6 7H3a2 2 0 000 4c0 2 1.5 3.5 3 4M18 7h3a2 2 0 010 4c0 2-1.5 3.5-3 4" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <span class="win-count" style="width:11px;height:11px;font-size:8px;">${wins}</span>
+      </div>` : "";
 
     const playerRows = players.map((p, i) => `
-      <div class="brand-player-row">
-        <div class="brand-player-rank">${i + 1}</div>
-        <div class="brand-player-name">${p.name}${p.wins > 0 ? ` <span style="color:#fd9d2c;font-size:11px;">${p.wins}W</span>` : ""}</div>
-        <div style="text-align:right">
-          <div class="brand-player-pts">${rnd(p.points)}</div>
-          <div class="brand-world-rank">Rank #${p.rank}</div>
+      <div class="standing-row" style="padding:8px 14px;">
+        <div class="rank-num ${i===0?'gold':''}" style="width:18px;font-size:14px;">${i + 1}</div>
+        <div class="player-col">
+          <div class="player-name-row">
+            <div class="player-name" style="font-size:14px;">${p.name}</div>
+            ${winsBadge(p.wins)}
+          </div>
+          <div class="player-sub">Rank #${p.rank}</div>
+        </div>
+        <div class="pts-col">
+          <div class="pts-main" style="font-size:16px;">${rnd(p.points)}</div>
         </div>
       </div>`).join("");
 
-    const brandId = brand.replace(/\s+/g, '-').toLowerCase();
     return `
       <div class="brand-group" id="brand-${brandId}">
         <div class="brand-header" onclick="toggleBrand('${brandId}')">
-          ${logoHtml}
-          <div class="brand-name">${brand}</div>
-          <div style="text-align:right;flex:1">
+          <div style="flex:1">
+            <div class="brand-name">${brand}</div>
+            <div class="brand-player-count">${players.length} player${players.length!==1?"s":""} · ${totalWins} win${totalWins!==1?"s":""}</div>
+          </div>
+          <div style="text-align:right;margin-right:8px;">
             <div class="brand-total">${rnd(totalPts)}</div>
-            <div class="brand-player-count">${players.length} player${players.length!==1?"s":""} · ${totalWins}W</div>
+            <div class="brand-player-count">total pts</div>
           </div>
           <div class="brand-chevron">›</div>
         </div>
-        <div class="brand-players" style="max-height:${players.length * 60}px">
+        <div class="brand-players" style="max-height:${players.length * 56}px">
           ${playerRows}
         </div>
       </div>`;
