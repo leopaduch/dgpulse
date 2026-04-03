@@ -102,8 +102,9 @@ async function fetchDivision(div) {
     players.push({ rank, name, points, pointsGain, wins, top10s, starts, qualified });
   });
 
-  console.log(`  → Parsed ${players.length} players`);
-  return { players, week };
+  const top100 = players.slice(0, 100);
+  console.log(`  → Parsed ${players.length} players, keeping top ${top100.length}`);
+  return { players: top100, week };
 }
 
 // ── Fetch sponsors for all players in parallel batches ────────
