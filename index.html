@@ -92,32 +92,28 @@
   .player-name { font-family:var(--font-d); font-size:16px; font-weight:700; white-space:nowrap; overflow:hidden; text-overflow:ellipsis; line-height:1.2; }
   .wins-badge {
     flex-shrink:0;
-    width:22px; height:22px;
+    width:26px; height:26px;
     border-radius:50%;
-    background: radial-gradient(circle at 35% 35%, #ffe066, #c8960c);
-    border: 2px solid #a07408;
+    background: #6c63d5;
     display:flex; align-items:center; justify-content:center;
-    font-family:var(--font-d); font-size:11px; font-weight:800;
-    color:#5a3d00;
     position:relative;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.4);
   }
-  .wins-badge::before {
-    content:'';
+  .wins-badge svg {
+    width:14px; height:14px;
     position:absolute;
-    top:-5px; left:50%; transform:translateX(-50%);
-    width:0; height:0;
-    border-left:3px solid transparent;
-    border-right:3px solid transparent;
-    border-bottom:5px solid #c8960c;
+    top:50%; left:50%; transform:translate(-50%,-50%);
   }
-  .wins-badge::after {
-    content:'';
+  .wins-badge .win-count {
     position:absolute;
-    bottom:-7px; left:50%; transform:translateX(-50%);
-    width:8px; height:6px;
-    background: linear-gradient(to bottom, #c8960c 50%, transparent 50%);
-    clip-path: polygon(0 0, 100% 0, 80% 100%, 20% 100%);
+    bottom:-3px; right:-3px;
+    width:13px; height:13px;
+    border-radius:50%;
+    background:#ff5c8a;
+    border:1.5px solid var(--navy);
+    display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-d); font-size:9px; font-weight:800;
+    color:#fff;
+    line-height:1;
   }
   .player-sub { font-size:11px; color:var(--muted); margin-top:1px; }
   .pts-col { text-align:right; flex-shrink:0; }
@@ -346,7 +342,13 @@ function playerRow(p, i, clickable) {
       <div class="player-col">
         <div class="player-name-row">
           <div class="player-name">${p.name}</div>
-          ${p.wins > 0 ? `<div class="wins-badge">${p.wins}</div>` : ""}
+          ${p.wins > 0 ? `<div class="wins-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 21h8M12 17v4M6 3h12l-1 8a5 5 0 01-10 0L6 3z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 7H3a2 2 0 000 4c0 2 1.5 3.5 3 4M18 7h3a2 2 0 010 4c0 2-1.5 3.5-3 4" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span class="win-count">${p.wins}</span>
+          </div>` : ""}
         </div>
         <div class="player-sub">${p.top10s} top-10 · ${p.starts} starts</div>
       </div>
@@ -359,7 +361,13 @@ function playerRow(p, i, clickable) {
       <div class="player-col">
         <div class="player-name-row">
           <div class="player-name">${p.name}</div>
-          ${p.wins > 0 ? `<div class="wins-badge">${p.wins}</div>` : ""}
+          ${p.wins > 0 ? `<div class="wins-badge">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8 21h8M12 17v4M6 3h12l-1 8a5 5 0 01-10 0L6 3z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M6 7H3a2 2 0 000 4c0 2 1.5 3.5 3 4M18 7h3a2 2 0 010 4c0 2-1.5 3.5-3 4" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+            <span class="win-count">${p.wins}</span>
+          </div>` : ""}
         </div>
         <div class="player-sub">${p.top10s} top-10 · ${p.starts} starts</div>
       </div>
