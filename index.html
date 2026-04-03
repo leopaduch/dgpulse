@@ -504,7 +504,14 @@ function renderCup() {
 
   const sorted = Object.entries(brands)
     .filter(([n]) => n !== "Unknown")
-    .sort((a, b) => Math.max(...b[1].map(p=>p.points)) - Math.max(...a[1].map(p=>p.points)));
+    .sort((a, b) => {
+      const aWins = a[1].reduce((s,p) => s + p.wins, 0);
+      const bWins = b[1].reduce((s,p) => s + p.wins, 0);
+      if (bWins !== aWins) return bWins - aWins;
+      const aPts = a[1].reduce((s,p) => s + p.points, 0);
+      const bPts = b[1].reduce((s,p) => s + p.points, 0);
+      return bPts - aPts;
+    });
 
   const winsBadge = (wins) => wins > 0 ? `<div class="wins-badge" style="width:20px;height:20px;margin-left:6px;"><svg viewBox="0 0 24 24" fill="none" style="width:11px;height:11px;position:absolute;top:50%;left:50%;transform:translate(-50%,-50%)"><path d="M8 21h8M12 17v4M6 3h12l-1 8a5 5 0 01-10 0L6 3z" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><path d="M6 7H3a2 2 0 000 4c0 2 1.5 3.5 3 4M18 7h3a2 2 0 010 4c0 2-1.5 3.5-3 4" stroke="rgba(255,255,255,0.5)" stroke-width="1.5" stroke-linecap="round"/></svg><span class="win-count" style="width:11px;height:11px;font-size:8px;">${wins}</span></div>` : "";
 
