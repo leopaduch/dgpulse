@@ -165,7 +165,7 @@
   .bottom-nav { position:fixed; bottom:0; left:50%; transform:translateX(-50%); width:100%; max-width:480px; background:var(--navy2); border-top:1px solid var(--border); display:flex; padding:8px 0 calc(8px + var(--safe-b)); z-index:100; backdrop-filter:blur(12px); }
   .bnav { flex:1; display:flex; flex-direction:column; align-items:center; gap:3px; cursor:pointer; padding:4px 0; }
   .bnav:active { opacity:0.6; }
-  .bnav-icon { font-size:20px; line-height:1; opacity:0.45; transition:opacity 0.2s; }
+  .bnav-icon { font-size:18px; line-height:1; opacity:0.45; transition:opacity 0.2s; width:18px; height:18px; display:flex; align-items:center; justify-content:center; }
   .bnav-label { font-family:var(--font-d); font-size:10px; font-weight:700; letter-spacing:0.5px; text-transform:uppercase; color:var(--muted); transition:color 0.2s; }
   .bnav.active .bnav-icon { opacity:1; filter: drop-shadow(0 0 4px var(--accent)); }
   .bnav.active .bnav-label { color:var(--accent2); }
@@ -187,9 +187,8 @@
     <div class="nav-tab active" onclick="showView('home',this)">Home</div>
     <div class="nav-tab" onclick="showView('standings',this)">Standings</div>
     <div class="nav-tab" onclick="showView('calendar',this)">Calendar</div>
-    <div class="nav-tab" onclick="showView('players',this)">Players</div>
-    <div class="nav-tab" onclick="showView('cup',this)">Cup</div>
     <div class="nav-tab" onclick="showView('showdown',this)">Showdown</div>
+    <div class="nav-tab" onclick="showView('cup',this)">Cup</div>
   </nav>
 </header>
 
@@ -259,9 +258,8 @@
   <div class="bnav active" onclick="showView('home',null,'b')"><div class="bnav-icon">⬡</div><div class="bnav-label">Home</div></div>
   <div class="bnav" onclick="showView('standings',null,'b')"><div class="bnav-icon">◈</div><div class="bnav-label">Standings</div></div>
   <div class="bnav" onclick="showView('calendar',null,'b')"><div class="bnav-icon">◷</div><div class="bnav-label">Calendar</div></div>
-  <div class="bnav" onclick="showView('players',null,'b')"><div class="bnav-icon">◎</div><div class="bnav-label">Players</div></div>
-  <div class="bnav" onclick="showView('cup',null,'b')"><div class="bnav-icon">◉</div><div class="bnav-label">Cup</div></div>
   <div class="bnav" onclick="showView('showdown',null,'b')"><div class="bnav-icon">◐</div><div class="bnav-label">Showdown</div></div>
+  <div class="bnav" onclick="showView('cup',null,'b')"><div class="bnav-icon">◉</div><div class="bnav-label">Cup</div></div>
 </nav>
 
 <script>
@@ -477,7 +475,7 @@ function setDiv(div, btn) {
 }
 
 function showView(view, tabEl) {
-  const views = ["home","standings","calendar","players","cup","showdown"];
+  const views = ["home","standings","calendar","showdown","cup"];
   document.querySelectorAll(".view").forEach(v => v.classList.remove("active"));
   document.getElementById("view-"+view).classList.add("active");
   document.querySelectorAll(".nav-tab").forEach(t => t.classList.remove("active"));
