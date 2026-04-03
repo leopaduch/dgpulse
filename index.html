@@ -74,6 +74,10 @@
 
   .standing-row { display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--border); }
   .standing-row:last-child { border-bottom:none; }
+  .cutoff-line { display:flex; align-items:center; gap:8px; padding:6px 0; margin:2px 0; }
+  .cutoff-line::before, .cutoff-line::after { content:''; flex:1; height:1px; background:rgba(232,84,26,0.4); }
+  :root.fpo .cutoff-line::before, :root.fpo .cutoff-line::after { background:rgba(132,131,131,0.4); }
+  .cutoff-label { font-family:var(--font-d); font-size:10px; font-weight:700; letter-spacing:0.5px; color:var(--muted); white-space:nowrap; text-transform:uppercase; }
   .player-tap { display:flex; align-items:center; gap:10px; padding:9px 0; border-bottom:1px solid var(--border); cursor:pointer; }
   .player-tap:last-child { border-bottom:none; }
   .player-tap:active { opacity:0.6; }
@@ -89,8 +93,7 @@
   .pts-col { text-align:right; flex-shrink:0; }
   .pts-main { font-family:var(--font-d); font-size:18px; font-weight:800; line-height:1; }
   .pts-gain { font-size:11px; color:var(--green); margin-top:1px; }
-  .qual-pill { font-family:var(--font-d); font-size:10px; font-weight:700; padding:2px 6px; border-radius:5px; background:rgba(24,144,255,0.15); border:1px solid rgba(24,144,255,0.4); color:#1890ff; flex-shrink:0; }
-  :root.fpo .qual-pill { background:rgba(132,131,131,0.15); border:1px solid rgba(132,131,131,0.4); color:#848383; }
+
   .chevron { color:var(--muted); font-size:18px; margin-left:auto; }
 
   .leader-wrap { display:flex; align-items:center; gap:14px; }
@@ -314,7 +317,6 @@ function playerRow(p, i, clickable) {
         <div class="player-name">${p.name}</div>
         <div class="player-sub">${p.wins}W · ${p.top10s} top-10 · ${p.starts} starts</div>
       </div>
-      ${p.qualified ? '<div class="qual-pill">Q</div>' : ""}
       <div class="chevron">›</div>
     </div>`;
   return `
@@ -325,7 +327,6 @@ function playerRow(p, i, clickable) {
         <div class="player-name">${p.name}</div>
         <div class="player-sub">${p.wins}W · ${p.top10s} top-10</div>
       </div>
-      ${p.qualified ? '<div class="qual-pill">Q</div>' : ""}
       <div class="pts-col">
         <div class="pts-main">${rnd(p.points)}</div>
         ${gain}
@@ -381,7 +382,7 @@ function showPlayer(idx) {
       ${logoHtml}
       <div>
         <div class="leader-name">${p.name}</div>
-        <div class="leader-sub">Rank #${p.rank} · ${currentDiv} · ${p.qualified?"Qualified ✓":"Not qualified"}</div>
+        <div class="leader-sub">Rank #${p.rank} · ${currentDiv} · ${p.sponsor || ""}</div>
       </div>
     </div>
     <div class="stat-grid">
