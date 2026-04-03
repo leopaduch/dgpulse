@@ -32,6 +32,32 @@ const LOGO_MAP = {
   "RPM Discs":     "/logo/rpm.png",
 };
 
+// ── Sponsor name normalization ────────────────────────────────
+const SPONSOR_NORMALIZE = {
+  "DD":                        "Dynamic Discs",
+  "Dynamic Disc":              "Dynamic Discs",
+  "Latitude64":                "Latitude 64",
+  "Latitude 64°":              "Latitude 64",
+  "Lat 64":                    "Latitude 64",
+  "Infinite Discs":            "Infinite",
+  "Thought Space":             "Thought Space Athletics",
+  "TSA":                       "Thought Space Athletics",
+  "MVP Disc Sports":           "MVP",
+  "Kastaplast Discs":          "Kastaplast",
+  "Discmania Discs":           "Discmania",
+  "Prodigy Disc":              "Prodigy",
+  "Prodigy Discs":             "Prodigy",
+  "Westside Discs":            "Westside",
+  "DGA Disc Golf":             "DGA",
+  "Discraft Discs":            "Discraft",
+  "OTB":                       "OTB Disc Golf",
+};
+
+function normalizeSponsor(name) {
+  if (!name) return name;
+  return SPONSOR_NORMALIZE[name] || name;
+}
+
 // ── Fetch standings for one division ─────────────────────────
 async function fetchDivision(div) {
   const url = `https://statmando.com/rankings/dgpt/${div.toLowerCase()}`;
@@ -111,8 +137,9 @@ async function enrichWithSponsors(players, existingPlayers) {
     await Promise.all(batch.map(async p => {
       const sponsor = await fetchPlayerSponsor(nameToSlug(p.name));
       if (sponsor) {
-        existing[p.name] = { sponsor, sponsorLogo: LOGO_MAP[sponsor] || '' };
-        console.log(`    ${p.name} → ${sponsor}`);
+        const normalizedSponsor = normalizeSponsor(sponsor);
+        existing[p.name] = { sponsor: normalizedSponsor, sponsorLogo: LOGO_MAP[normalizedSponsor] || '' };
+        console.log(`    ${p.name} → ${normalizedSponsor}`);
       }
     }));
     if (i + BATCH < needLookup.length) await new Promise(r => setTimeout(r, 1500));
