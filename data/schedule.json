@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-13",
+  "updated": "2026-04-14",
   "season": 2026,
   "events": [
     {
@@ -46,8 +46,8 @@
       "tier": "PDGA Major",
       "status": "done",
       "dates": "Apr 9–12",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Silva Saarinen",
+      "winner_fpo": "Niklas Anttila",
       "pdga_id": 97336
     },
     {
