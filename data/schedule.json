@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-17",
+  "updated": "2026-04-18",
   "season": 2026,
   "events": [
     {
@@ -56,7 +56,7 @@
       "name": "Jonesboro Open",
       "loc": "Disc Side of Heaven · Jonesboro, AR",
       "tier": "Elite Series",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Apr 17–19",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -68,7 +68,7 @@
       "name": "Kansas City Wide Open",
       "loc": "Rinn Park · Liberty, MO",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Apr 24–26",
       "winner_mpo": null,
       "winner_fpo": null,
