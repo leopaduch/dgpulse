@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-19",
+  "updated": "2026-04-20",
   "season": 2026,
   "events": [
     {
@@ -56,7 +56,7 @@
       "name": "Jonesboro Open",
       "loc": "Disc Side of Heaven · Jonesboro, AR",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Apr 17–19",
       "winner_mpo": null,
       "winner_fpo": null,
