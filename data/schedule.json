@@ -1,5 +1,5 @@
 {
-  "updated": "2026-04-26",
+  "updated": "2026-04-27",
   "season": 2026,
   "events": [
     {
@@ -34,8 +34,8 @@
       "tier": "Elite Series",
       "status": "done",
       "dates": "Mar 27–29",
-      "winner_mpo": "Jessica Gurthie",
-      "winner_fpo": "Gannon Buhr",
+      "winner_mpo": "Gannon Buhr",
+      "winner_fpo": "Jessica Gurthie",
       "pdga_id": 96403
     },
     {
@@ -46,8 +46,8 @@
       "tier": "PDGA Major",
       "status": "done",
       "dates": "Apr 9–12",
-      "winner_mpo": "Silva Saarinen",
-      "winner_fpo": "Niklas Anttila",
+      "winner_mpo": "Niklas Anttila",
+      "winner_fpo": "Silva Saarinen",
       "pdga_id": 97336
     },
     {
@@ -58,8 +58,8 @@
       "tier": "Elite Series",
       "status": "done",
       "dates": "Apr 17–19",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Gannon Buhr",
+      "winner_fpo": "Henna Blomroos",
       "pdga_id": 96404
     },
     {
@@ -68,10 +68,10 @@
       "name": "Kansas City Wide Open",
       "loc": "Rinn Park · Liberty, MO",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Apr 24–26",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Cole Redalen",
+      "winner_fpo": "Eveliina Salonen",
       "pdga_id": 96407
     },
     {
