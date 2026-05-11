@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-10",
+  "updated": "2026-05-11",
   "season": 2026,
   "events": [
     {
@@ -80,7 +80,7 @@
       "name": "The Open at Austin",
       "loc": "Austin, TX",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "done",
       "dates": "May 7–10",
       "winner_mpo": null,
       "winner_fpo": null,
