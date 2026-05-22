@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-21",
+  "updated": "2026-05-22",
   "season": 2026,
   "events": [
     {
@@ -92,7 +92,7 @@
       "name": "OTB Open",
       "loc": "Stockton, CA",
       "tier": "Elite Series+",
-      "status": "next",
+      "status": "upcoming",
       "dates": "May 21–24",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -104,7 +104,7 @@
       "name": "Northwest Championship",
       "loc": "Milo McIver State Park · Portland, OR",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Jun 4–7",
       "winner_mpo": null,
       "winner_fpo": null,
