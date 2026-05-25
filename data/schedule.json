@@ -1,5 +1,5 @@
 {
-  "updated": "2026-05-24",
+  "updated": "2026-05-25",
   "season": 2026,
   "events": [
     {
@@ -92,7 +92,7 @@
       "name": "OTB Open",
       "loc": "Stockton, CA",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "done",
       "dates": "May 21–24",
       "winner_mpo": null,
       "winner_fpo": null,
