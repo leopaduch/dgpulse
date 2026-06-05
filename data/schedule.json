@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-04",
+  "updated": "2026-06-05",
   "season": 2026,
   "events": [
     {
@@ -104,7 +104,7 @@
       "name": "Northwest Championship",
       "loc": "Milo McIver State Park · Portland, OR",
       "tier": "Elite Series+",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Jun 4–7",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -116,7 +116,7 @@
       "name": "PDGA European Open",
       "loc": "Song Festival Grounds · Tallinn, Estonia",
       "tier": "PDGA Major",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Jun 18–21",
       "winner_mpo": null,
       "winner_fpo": null,
