@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-07",
+  "updated": "2026-06-08",
   "season": 2026,
   "events": [
     {
@@ -82,8 +82,8 @@
       "tier": "Elite Series+",
       "status": "done",
       "dates": "May 7–10",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Paul Ulibarri",
+      "winner_fpo": "Ohn Scoggins",
       "pdga_id": 96408
     },
     {
@@ -94,8 +94,8 @@
       "tier": "Elite Series+",
       "status": "done",
       "dates": "May 21–24",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Calvin Heimburg",
+      "winner_fpo": "Holyn Handley",
       "pdga_id": 96409
     },
     {
@@ -104,10 +104,10 @@
       "name": "Northwest Championship",
       "loc": "Milo McIver State Park · Portland, OR",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Jun 4–7",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Gannon Buhr",
+      "winner_fpo": "Silva Saarinen",
       "pdga_id": 96410
     },
     {
