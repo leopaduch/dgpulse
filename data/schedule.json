@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "season": 2026,
   "events": [
     {
@@ -116,10 +116,10 @@
       "name": "PDGA European Open",
       "loc": "Song Festival Grounds · Tallinn, Estonia",
       "tier": "PDGA Major",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Jun 18–21",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Niklas Anttila",
+      "winner_fpo": "Silva Saarinen",
       "pdga_id": null
     },
     {
