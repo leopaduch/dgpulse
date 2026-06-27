@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-26",
+  "updated": "2026-06-27",
   "season": 2026,
   "events": [
     {
@@ -128,7 +128,7 @@
       "name": "Swedish Open",
       "loc": "Borås, Sweden",
       "tier": "Elite Series",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Jun 26–28",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -140,7 +140,7 @@
       "name": "Ale Open",
       "loc": "Ale DGC · Nol, Sweden",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Jul 3–5",
       "winner_mpo": null,
       "winner_fpo": null,
