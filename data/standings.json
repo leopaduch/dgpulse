@@ -1,16 +1,16 @@
 {
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "week": "2026-14",
   "note": "After Queen City Classic — 3 events complete",
   "MPO": [
     {
       "rank": 1,
       "name": "Gannon Buhr",
-      "points": 1726.44,
-      "pointsGain": 300,
+      "points": 1820.44,
+      "pointsGain": 94,
       "wins": 6,
-      "top10s": 11,
-      "starts": 11,
+      "top10s": 12,
+      "starts": 12,
       "qualified": true,
       "sponsor": "Discmania",
       "sponsorLogo": "/logo/discmania.png"
@@ -18,11 +18,11 @@
     {
       "rank": 2,
       "name": "Richard Wysocki",
-      "points": 1202.33,
-      "pointsGain": 250,
+      "points": 1296.33,
+      "pointsGain": 94,
       "wins": 1,
-      "top10s": 6,
-      "starts": 10,
+      "top10s": 7,
+      "starts": 11,
       "qualified": true,
       "sponsor": "Discraft",
       "sponsorLogo": "/logo/discraft.png"
@@ -30,11 +30,11 @@
     {
       "rank": 3,
       "name": "Calvin Heimburg",
-      "points": 1109.74,
-      "pointsGain": 188,
+      "points": 1234.74,
+      "pointsGain": 125,
       "wins": 1,
-      "top10s": 6,
-      "starts": 11,
+      "top10s": 7,
+      "starts": 12,
       "qualified": true,
       "sponsor": "Innova",
       "sponsorLogo": "/logo/innova.jpg"
@@ -42,11 +42,11 @@
     {
       "rank": 4,
       "name": "Isaac Robinson",
-      "points": 1103.58,
-      "pointsGain": 172,
+      "points": 1137.08,
+      "pointsGain": 33.5,
       "wins": 0,
       "top10s": 9,
-      "starts": 11,
+      "starts": 12,
       "qualified": true,
       "sponsor": "Latitude 64",
       "sponsorLogo": "/logo/latitude64.png"
@@ -54,11 +54,11 @@
     {
       "rank": 5,
       "name": "Adam Hammes",
-      "points": 976.33,
-      "pointsGain": 137,
+      "points": 1086.33,
+      "pointsGain": 110,
       "wins": 0,
-      "top10s": 7,
-      "starts": 12,
+      "top10s": 8,
+      "starts": 13,
       "qualified": true,
       "sponsor": "Discraft",
       "sponsorLogo": "/logo/discraft.png"
@@ -66,56 +66,8 @@
     {
       "rank": 6,
       "name": "Anthony Barela",
-      "points": 941.86,
-      "pointsGain": 146,
-      "wins": 0,
-      "top10s": 4,
-      "starts": 11,
-      "qualified": true,
-      "sponsor": "Discraft",
-      "sponsorLogo": "/logo/discraft.png"
-    },
-    {
-      "rank": 7,
-      "name": "Niklas Anttila",
-      "points": 807.08,
-      "pointsGain": 155,
-      "wins": 1,
-      "top10s": 4,
-      "starts": 8,
-      "qualified": true,
-      "sponsor": "Discmania",
-      "sponsorLogo": "/logo/discmania.png"
-    },
-    {
-      "rank": 8,
-      "name": "Gavin Babcock",
-      "points": 786.25,
-      "pointsGain": 220,
-      "wins": 0,
-      "top10s": 5,
-      "starts": 11,
-      "qualified": true,
-      "sponsor": "Discmania",
-      "sponsorLogo": "/logo/discmania.png"
-    },
-    {
-      "rank": 9,
-      "name": "Sullivan Tipton",
-      "points": 748.74,
-      "pointsGain": 61,
-      "wins": 0,
-      "top10s": 3,
-      "starts": 10,
-      "qualified": true,
-      "sponsor": "DGA",
-      "sponsorLogo": "/logo/dga.jpeg"
-    },
-    {
-      "rank": 10,
-      "name": "Luke Taylor",
-      "points": 700.68,
-      "pointsGain": 52,
+      "points": 982.72,
+      "pointsGain": 40.86,
       "wins": 0,
       "top10s": 4,
       "starts": 12,
@@ -124,19 +76,79 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 11,
-      "name": "Eagle McMahon",
-      "points": 692.08,
-      "pointsGain": 188,
-      "wins": 0,
-      "top10s": 3,
+      "rank": 7,
+      "name": "Niklas Anttila",
+      "points": 880.08,
+      "pointsGain": 73,
+      "wins": 1,
+      "top10s": 5,
       "starts": 9,
+      "qualified": true,
+      "sponsor": "Discmania",
+      "sponsorLogo": "/logo/discmania.png"
+    },
+    {
+      "rank": 8,
+      "name": "Eagle McMahon",
+      "points": 842.08,
+      "pointsGain": 150,
+      "wins": 1,
+      "top10s": 4,
+      "starts": 10,
       "qualified": true,
       "sponsor": "MVP",
       "sponsorLogo": "/logo/MVP.png"
     },
     {
+      "rank": 9,
+      "name": "Gavin Babcock",
+      "points": 827.11,
+      "pointsGain": 40.86,
+      "wins": 0,
+      "top10s": 5,
+      "starts": 12,
+      "qualified": true,
+      "sponsor": "Discmania",
+      "sponsorLogo": "/logo/discmania.png"
+    },
+    {
+      "rank": 10,
+      "name": "Sullivan Tipton",
+      "points": 813.07,
+      "pointsGain": 64.33,
+      "wins": 0,
+      "top10s": 3,
+      "starts": 11,
+      "qualified": true,
+      "sponsor": "DGA",
+      "sponsorLogo": "/logo/dga.jpeg"
+    },
+    {
+      "rank": 11,
+      "name": "Ezra Robinson",
+      "points": 783.83,
+      "pointsGain": 110,
+      "wins": 0,
+      "top10s": 4,
+      "starts": 12,
+      "qualified": true,
+      "sponsor": "Discraft",
+      "sponsorLogo": "/logo/discraft.png"
+    },
+    {
       "rank": 12,
+      "name": "Luke Taylor",
+      "points": 773.68,
+      "pointsGain": 73,
+      "wins": 0,
+      "top10s": 5,
+      "starts": 13,
+      "qualified": true,
+      "sponsor": "Discraft",
+      "sponsorLogo": "/logo/discraft.png"
+    },
+    {
+      "rank": 13,
       "name": "Casey White",
       "points": 683.83,
       "pointsGain": 0,
@@ -148,31 +160,67 @@
       "sponsorLogo": "/logo/discmania.png"
     },
     {
-      "rank": 13,
-      "name": "Ezra Robinson",
-      "points": 673.83,
-      "pointsGain": 70,
-      "wins": 0,
-      "top10s": 3,
-      "starts": 11,
-      "qualified": true,
-      "sponsor": "Discraft",
-      "sponsorLogo": "/logo/discraft.png"
-    },
-    {
       "rank": 14,
       "name": "Aaron Gossage",
-      "points": 650.58,
-      "pointsGain": 100,
+      "points": 679.08,
+      "pointsGain": 28.5,
       "wins": 0,
       "top10s": 3,
-      "starts": 12,
+      "starts": 13,
       "qualified": true,
       "sponsor": "MVP",
       "sponsorLogo": "/logo/MVP.png"
     },
     {
       "rank": 15,
+      "name": "Jaden Rye",
+      "points": 633.83,
+      "pointsGain": 56,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 11,
+      "qualified": true,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 16,
+      "name": "Joseph Anderson",
+      "points": 628.83,
+      "pointsGain": 20.5,
+      "wins": 0,
+      "top10s": 4,
+      "starts": 12,
+      "qualified": true,
+      "sponsor": "Kastaplast",
+      "sponsorLogo": "/logo/kastaplast.png"
+    },
+    {
+      "rank": 17,
+      "name": "Raven Newsom",
+      "points": 627.68,
+      "pointsGain": 28.5,
+      "wins": 0,
+      "top10s": 2,
+      "starts": 12,
+      "qualified": true,
+      "sponsor": "MVP",
+      "sponsorLogo": "/logo/MVP.png"
+    },
+    {
+      "rank": 18,
+      "name": "Silas Schultz",
+      "points": 615.65,
+      "pointsGain": 10.67,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 11,
+      "qualified": true,
+      "sponsor": "MVP",
+      "sponsorLogo": "/logo/MVP.png"
+    },
+    {
+      "rank": 19,
       "name": "Zachary Nash",
       "points": 611.75,
       "pointsGain": 0,
@@ -184,58 +232,22 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 16,
-      "name": "Joseph Anderson",
-      "points": 608.33,
-      "pointsGain": 47,
+      "rank": 20,
+      "name": "Jake Monn",
+      "points": 584.96,
+      "pointsGain": 80.5,
       "wins": 0,
       "top10s": 4,
-      "starts": 11,
+      "starts": 13,
       "qualified": true,
-      "sponsor": "Kastaplast",
-      "sponsorLogo": "/logo/kastaplast.png"
+      "sponsor": "DGA",
+      "sponsorLogo": "/logo/dga.jpeg"
     },
     {
-      "rank": 17,
-      "name": "Silas Schultz",
-      "points": 604.98,
-      "pointsGain": 137,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 10,
-      "qualified": true,
-      "sponsor": "MVP",
-      "sponsorLogo": "/logo/MVP.png"
-    },
-    {
-      "rank": 18,
-      "name": "Raven Newsom",
-      "points": 599.18,
-      "pointsGain": 70,
-      "wins": 0,
-      "top10s": 2,
-      "starts": 11,
-      "qualified": true,
-      "sponsor": "MVP",
-      "sponsorLogo": "/logo/MVP.png"
-    },
-    {
-      "rank": 19,
-      "name": "Jaden Rye",
-      "points": 577.83,
-      "pointsGain": 92,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 10,
-      "qualified": true,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 20,
+      "rank": 21,
       "name": "Kyle Klein",
       "points": 569.06,
-      "pointsGain": 47,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 4,
       "starts": 9,
@@ -244,7 +256,19 @@
       "sponsorLogo": "/logo/discmania.png"
     },
     {
-      "rank": 21,
+      "rank": 22,
+      "name": "Cole Redalen",
+      "points": 541.61,
+      "pointsGain": 56,
+      "wins": 1,
+      "top10s": 1,
+      "starts": 11,
+      "qualified": true,
+      "sponsor": "DGA",
+      "sponsorLogo": "/logo/dga.jpeg"
+    },
+    {
+      "rank": 23,
       "name": "Andrew Marwede",
       "points": 537.83,
       "pointsGain": 0,
@@ -256,19 +280,19 @@
       "sponsorLogo": "/logo/dga.jpeg"
     },
     {
-      "rank": 22,
-      "name": "Jake Monn",
-      "points": 504.46,
-      "pointsGain": 100,
+      "rank": 24,
+      "name": "Jesse Nieminen",
+      "points": 508.17,
+      "pointsGain": 56,
       "wins": 0,
-      "top10s": 3,
-      "starts": 12,
+      "top10s": 2,
+      "starts": 8,
       "qualified": true,
-      "sponsor": "DGA",
-      "sponsorLogo": "/logo/dga.jpeg"
+      "sponsor": "Kastaplast",
+      "sponsorLogo": "/logo/kastaplast.png"
     },
     {
-      "rank": 23,
+      "rank": 25,
       "name": "Chris Dickerson",
       "points": 502.5,
       "pointsGain": 0,
@@ -280,10 +304,10 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 24,
+      "rank": 26,
       "name": "Austin Turner",
       "points": 490.07,
-      "pointsGain": 114,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 1,
       "starts": 11,
@@ -292,31 +316,19 @@
       "sponsorLogo": "/logo/dga.jpeg"
     },
     {
-      "rank": 25,
-      "name": "Cole Redalen",
-      "points": 485.61,
-      "pointsGain": 61,
-      "wins": 1,
-      "top10s": 1,
-      "starts": 10,
-      "qualified": true,
-      "sponsor": "DGA",
-      "sponsorLogo": "/logo/dga.jpeg"
-    },
-    {
-      "rank": 26,
+      "rank": 27,
       "name": "Bradley Williams",
-      "points": 475.62,
-      "pointsGain": 114,
+      "points": 489.33,
+      "pointsGain": 13.71,
       "wins": 0,
       "top10s": 1,
-      "starts": 11,
+      "starts": 12,
       "qualified": true,
       "sponsor": "Innova",
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "Paul Ulibarri",
       "points": 472.06,
       "pointsGain": 0,
@@ -328,19 +340,19 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 28,
+      "rank": 29,
       "name": "Paul Krans",
       "points": 470.85,
       "pointsGain": 0,
       "wins": 0,
       "top10s": 1,
       "starts": 11,
-      "qualified": true,
+      "qualified": false,
       "sponsor": "MVP",
       "sponsorLogo": "/logo/MVP.png"
     },
     {
-      "rank": 29,
+      "rank": 30,
       "name": "Corey Ellis",
       "points": 469.83,
       "pointsGain": 0,
@@ -352,7 +364,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 30,
+      "rank": 31,
+      "name": "Mauri Villmann",
+      "points": 466.67,
+      "pointsGain": 49,
+      "wins": 0,
+      "top10s": 2,
+      "starts": 8,
+      "qualified": false,
+      "sponsor": "MVP",
+      "sponsorLogo": "/logo/MVP.png"
+    },
+    {
+      "rank": 32,
       "name": "Parker Welck",
       "points": 457.54,
       "pointsGain": 0,
@@ -364,31 +388,31 @@
       "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
-      "rank": 31,
-      "name": "Jesse Nieminen",
-      "points": 452.17,
-      "pointsGain": 70,
-      "wins": 0,
-      "top10s": 2,
-      "starts": 7,
-      "qualified": false,
-      "sponsor": "Kastaplast",
-      "sponsorLogo": "/logo/kastaplast.png"
-    },
-    {
-      "rank": 32,
-      "name": "Mauri Villmann",
-      "points": 417.67,
-      "pointsGain": 155,
-      "wins": 0,
-      "top10s": 2,
-      "starts": 7,
-      "qualified": false,
-      "sponsor": "MVP",
-      "sponsorLogo": "/logo/MVP.png"
-    },
-    {
       "rank": 33,
+      "name": "Braeden Sides",
+      "points": 433.84,
+      "pointsGain": 49,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 12,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 34,
+      "name": "Jakub Semerád",
+      "points": 409.5,
+      "pointsGain": 17,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 11,
+      "qualified": false,
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
+    },
+    {
+      "rank": 35,
       "name": "Evan Smith",
       "points": 405.67,
       "pointsGain": 0,
@@ -400,103 +424,91 @@
       "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
-      "rank": 34,
-      "name": "Jakub Semerád",
-      "points": 392.5,
-      "pointsGain": 82.5,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 10,
-      "qualified": false,
-      "sponsor": "Latitude 64",
-      "sponsorLogo": "/logo/latitude64.png"
-    },
-    {
-      "rank": 35,
-      "name": "Braeden Sides",
-      "points": 384.84,
-      "pointsGain": 82.5,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 11,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
       "rank": 36,
-      "name": "Clay Edwards",
-      "points": 370.07,
-      "pointsGain": 61,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 11,
-      "qualified": false,
-      "sponsor": "Kastaplast",
-      "sponsorLogo": "/logo/kastaplast.png"
-    },
-    {
-      "rank": 37,
-      "name": "Väinö Mäkelä",
-      "points": 353.12,
-      "pointsGain": 41,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 8,
-      "qualified": false,
-      "sponsor": "Innova",
-      "sponsorLogo": "/logo/innova.jpg"
-    },
-    {
-      "rank": 38,
-      "name": "Albert Tamm",
-      "points": 349.67,
-      "pointsGain": 75,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 10,
-      "qualified": false,
-      "sponsor": "Latitude 64",
-      "sponsorLogo": "/logo/latitude64.png"
-    },
-    {
-      "rank": 39,
-      "name": "Evan Scott",
-      "points": 343.82,
-      "pointsGain": 52,
-      "wins": 0,
-      "top10s": 2,
-      "starts": 12,
-      "qualified": false,
-      "sponsor": "Discraft",
-      "sponsorLogo": "/logo/discraft.png"
-    },
-    {
-      "rank": 40,
       "name": "Robert Burridge",
-      "points": 339.83,
-      "pointsGain": 18,
+      "points": 404.17,
+      "pointsGain": 64.33,
       "wins": 0,
       "top10s": 1,
-      "starts": 12,
+      "starts": 13,
       "qualified": false,
       "sponsor": "Dynamic Discs",
       "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
-      "rank": 41,
-      "name": "Simon Lizotte",
-      "points": 336.68,
-      "pointsGain": 0,
+      "rank": 37,
+      "name": "Evan Scott",
+      "points": 399.82,
+      "pointsGain": 56,
+      "wins": 0,
+      "top10s": 2,
+      "starts": 13,
+      "qualified": false,
+      "sponsor": "Discraft",
+      "sponsorLogo": "/logo/discraft.png"
+    },
+    {
+      "rank": 38,
+      "name": "Clay Edwards",
+      "points": 395.57,
+      "pointsGain": 25.5,
       "wins": 0,
       "top10s": 0,
-      "starts": 7,
+      "starts": 12,
+      "qualified": false,
+      "sponsor": "Kastaplast",
+      "sponsorLogo": "/logo/kastaplast.png"
+    },
+    {
+      "rank": 39,
+      "name": "Väinö Mäkelä",
+      "points": 386.62,
+      "pointsGain": 33.5,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 9,
+      "qualified": false,
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
+    },
+    {
+      "rank": 40,
+      "name": "Simon Lizotte",
+      "points": 355.68,
+      "pointsGain": 19,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 8,
       "qualified": false,
       "sponsor": "MVP",
       "sponsorLogo": "/logo/MVP.png"
     },
     {
+      "rank": 41,
+      "name": "Albert Tamm",
+      "points": 349.67,
+      "pointsGain": 0,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 10,
+      "qualified": false,
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
+    },
+    {
       "rank": 42,
+      "name": "Andrew Miranda",
+      "points": 329.29,
+      "pointsGain": 40.86,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 10,
+      "qualified": false,
+      "sponsor": "Dynamic Discs",
+      "sponsorLogo": "/logo/dynamicdiscs.png"
+    },
+    {
+      "rank": 43,
       "name": "Chandler Kramer",
       "points": 324.57,
       "pointsGain": 0,
@@ -508,7 +520,7 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 43,
+      "rank": 44,
       "name": "Matthew Orum",
       "points": 323.1,
       "pointsGain": 0,
@@ -520,7 +532,43 @@
       "sponsorLogo": "/logo/westside.png"
     },
     {
-      "rank": 44,
+      "rank": 45,
+      "name": "Harry Chace",
+      "points": 322.75,
+      "pointsGain": 17,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 11,
+      "qualified": false,
+      "sponsor": "Discmania",
+      "sponsorLogo": "/logo/discmania.png"
+    },
+    {
+      "rank": 46,
+      "name": "Ezra Aderhold",
+      "points": 319.72,
+      "pointsGain": 23.5,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 11,
+      "qualified": false,
+      "sponsor": "Discraft",
+      "sponsorLogo": "/logo/discraft.png"
+    },
+    {
+      "rank": 47,
+      "name": "James Conrad",
+      "points": 319.19,
+      "pointsGain": 40.86,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 11,
+      "qualified": false,
+      "sponsor": "MVP",
+      "sponsorLogo": "/logo/MVP.png"
+    },
+    {
+      "rank": 48,
       "name": "Elijah Bickel",
       "points": 310.83,
       "pointsGain": 0,
@@ -532,19 +580,7 @@
       "sponsorLogo": "/logo/prodigy.png"
     },
     {
-      "rank": 45,
-      "name": "Harry Chace",
-      "points": 305.75,
-      "pointsGain": 36.67,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 10,
-      "qualified": false,
-      "sponsor": "Discmania",
-      "sponsorLogo": "/logo/discmania.png"
-    },
-    {
-      "rank": 46,
+      "rank": 49,
       "name": "Zach Arlinghaus",
       "points": 305.58,
       "pointsGain": 0,
@@ -556,19 +592,19 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 47,
-      "name": "Ezra Aderhold",
-      "points": 296.22,
-      "pointsGain": 14.67,
+      "rank": 50,
+      "name": "Ryan Monn",
+      "points": 295.42,
+      "pointsGain": 20.5,
       "wins": 0,
-      "top10s": 0,
-      "starts": 10,
+      "top10s": 1,
+      "starts": 12,
       "qualified": false,
       "sponsor": "Discraft",
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 48,
+      "rank": 51,
       "name": "Ty Love",
       "points": 293.83,
       "pointsGain": 0,
@@ -580,19 +616,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 49,
-      "name": "Andrew Miranda",
-      "points": 288.43,
-      "pointsGain": 22,
+      "rank": 52,
+      "name": "Harper Thompson",
+      "points": 285.18,
+      "pointsGain": 10.67,
       "wins": 0,
       "top10s": 1,
       "starts": 9,
       "qualified": false,
-      "sponsor": "Dynamic Discs",
-      "sponsorLogo": "/logo/dynamicdiscs.png"
+      "sponsor": "Prodigy",
+      "sponsorLogo": "/logo/prodigy.png"
     },
     {
-      "rank": 50,
+      "rank": 53,
       "name": "Gavin Phillips",
       "points": 285.01,
       "pointsGain": 0,
@@ -604,7 +640,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 51,
+      "rank": 54,
       "name": "Joel Freeman",
       "points": 280.5,
       "pointsGain": 0,
@@ -616,43 +652,19 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 52,
-      "name": "James Conrad",
-      "points": 278.33,
-      "pointsGain": 36.67,
+      "rank": 55,
+      "name": "Luke Humphries",
+      "points": 279.38,
+      "pointsGain": 28.5,
       "wins": 0,
-      "top10s": 0,
+      "top10s": 1,
       "starts": 10,
-      "qualified": false,
-      "sponsor": "MVP",
-      "sponsorLogo": "/logo/MVP.png"
-    },
-    {
-      "rank": 53,
-      "name": "Ryan Monn",
-      "points": 274.92,
-      "pointsGain": 18,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 11,
-      "qualified": false,
-      "sponsor": "Discraft",
-      "sponsorLogo": "/logo/discraft.png"
-    },
-    {
-      "rank": 54,
-      "name": "Harper Thompson",
-      "points": 274.52,
-      "pointsGain": 41,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 8,
       "qualified": false,
       "sponsor": "Prodigy",
       "sponsorLogo": "/logo/prodigy.png"
     },
     {
-      "rank": 55,
+      "rank": 56,
       "name": "Jake Hebenheimer",
       "points": 267.93,
       "pointsGain": 0,
@@ -664,19 +676,31 @@
       "sponsorLogo": "/logo/prodigy.png"
     },
     {
-      "rank": 56,
-      "name": "Luke Humphries",
-      "points": 250.88,
-      "pointsGain": 24,
+      "rank": 57,
+      "name": "Lauri Lehtinen",
+      "points": 259.25,
+      "pointsGain": 25.5,
       "wins": 0,
-      "top10s": 1,
-      "starts": 9,
+      "top10s": 0,
+      "starts": 5,
       "qualified": false,
-      "sponsor": "Prodigy",
-      "sponsorLogo": "/logo/prodigy.png"
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
     },
     {
-      "rank": 57,
+      "rank": 58,
+      "name": "Calvin Lonnquist",
+      "points": 257.05,
+      "pointsGain": 13.71,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 11,
+      "qualified": false,
+      "sponsor": "MVP",
+      "sponsorLogo": "/logo/MVP.png"
+    },
+    {
+      "rank": 59,
       "name": "Mason Ford",
       "points": 250.83,
       "pointsGain": 0,
@@ -688,55 +712,67 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 58,
-      "name": "Calvin Lonnquist",
-      "points": 243.33,
-      "pointsGain": 22,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 10,
-      "qualified": false,
-      "sponsor": "MVP",
-      "sponsorLogo": "/logo/MVP.png"
-    },
-    {
-      "rank": 59,
-      "name": "Lauri Lehtinen",
-      "points": 233.75,
-      "pointsGain": 82.5,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 4,
-      "qualified": false,
-      "sponsor": "Latitude 64",
-      "sponsorLogo": "/logo/latitude64.png"
-    },
-    {
       "rank": 60,
-      "name": "Alden Harris",
-      "points": 227,
-      "pointsGain": 31,
+      "name": "Eetu Tuominen",
+      "points": 250,
+      "pointsGain": 86,
       "wins": 0,
-      "top10s": 0,
-      "starts": 9,
+      "top10s": 2,
+      "starts": 2,
       "qualified": false,
-      "sponsor": "Discmania",
-      "sponsorLogo": "/logo/discmania.png"
+      "sponsor": "",
+      "sponsorLogo": ""
     },
     {
       "rank": 61,
       "name": "Teemu Lampainen",
-      "points": 220,
-      "pointsGain": 220,
+      "points": 240.5,
+      "pointsGain": 20.5,
       "wins": 0,
       "top10s": 1,
-      "starts": 1,
+      "starts": 2,
       "qualified": false,
       "sponsor": "Latitude 64",
       "sponsorLogo": "/logo/latitude64.png"
     },
     {
       "rank": 62,
+      "name": "Alden Harris",
+      "points": 237.67,
+      "pointsGain": 10.67,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 10,
+      "qualified": false,
+      "sponsor": "Discmania",
+      "sponsorLogo": "/logo/discmania.png"
+    },
+    {
+      "rank": 63,
+      "name": "Joona Heinänen",
+      "points": 234.5,
+      "pointsGain": 56,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 5,
+      "qualified": false,
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
+    },
+    {
+      "rank": 64,
+      "name": "Noah Meintsma",
+      "points": 219.77,
+      "pointsGain": 33.5,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 5,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 65,
       "name": "Dallas Garber",
       "points": 210.77,
       "pointsGain": 0,
@@ -748,7 +784,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 63,
+      "rank": 66,
       "name": "Garrett Gurthie",
       "points": 197.31,
       "pointsGain": 0,
@@ -760,55 +796,43 @@
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 64,
-      "name": "Noah Meintsma",
-      "points": 186.27,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 4,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 65,
-      "name": "Joona Heinänen",
-      "points": 178.5,
-      "pointsGain": 114,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 4,
-      "qualified": false,
-      "sponsor": "Innova",
-      "sponsorLogo": "/logo/innova.jpg"
-    },
-    {
-      "rank": 66,
-      "name": "Rasmus Saukkoriipi",
-      "points": 171.05,
-      "pointsGain": 100,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 5,
-      "qualified": false,
-      "sponsor": "Innova",
-      "sponsorLogo": "/logo/innova.jpg"
-    },
-    {
       "rank": 67,
-      "name": "Eetu Tuominen",
-      "points": 164,
-      "pointsGain": 164,
+      "name": "Onni Ruusunen",
+      "points": 190.33,
+      "pointsGain": 64.33,
       "wins": 0,
-      "top10s": 1,
-      "starts": 1,
+      "top10s": 0,
+      "starts": 2,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
     },
     {
       "rank": 68,
+      "name": "Levi Stout",
+      "points": 178.47,
+      "pointsGain": 40.86,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 8,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 69,
+      "name": "Rasmus Saukkoriipi",
+      "points": 174.3,
+      "pointsGain": 3.25,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 6,
+      "qualified": false,
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
+    },
+    {
+      "rank": 70,
       "name": "Austen Bates",
       "points": 157.11,
       "pointsGain": 0,
@@ -820,7 +844,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 69,
+      "rank": 71,
       "name": "Andrew Presnell",
       "points": 146,
       "pointsGain": 0,
@@ -832,7 +856,7 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 70,
+      "rank": 72,
       "name": "Nathan Queen",
       "points": 145.5,
       "pointsGain": 0,
@@ -844,7 +868,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 71,
+      "rank": 73,
+      "name": "Daniel Davidsson",
+      "points": 143,
+      "pointsGain": 17,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 74,
       "name": "Jonathan Borzick",
       "points": 141.22,
       "pointsGain": 0,
@@ -856,7 +892,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 72,
+      "rank": 75,
       "name": "Bo McLaughlin",
       "points": 141.12,
       "pointsGain": 0,
@@ -868,7 +904,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 73,
+      "rank": 76,
       "name": "Luke Samson",
       "points": 140.27,
       "pointsGain": 0,
@@ -880,46 +916,46 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 74,
-      "name": "Levi Stout",
-      "points": 137.61,
-      "pointsGain": 10,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 7,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 75,
-      "name": "Daniel Davidsson",
-      "points": 126,
-      "pointsGain": 126,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 75,
-      "name": "Onni Ruusunen",
-      "points": 126,
-      "pointsGain": 126,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "Innova",
-      "sponsorLogo": "/logo/innova.jpg"
-    },
-    {
       "rank": 77,
+      "name": "Maico Rimmel",
+      "points": 123.2,
+      "pointsGain": 9.2,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 78,
+      "name": "Nestori Tuhkanen",
+      "points": 121.5,
+      "pointsGain": 80.5,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
+    },
+    {
+      "rank": 79,
+      "name": "Joey Temali",
+      "points": 118.5,
+      "pointsGain": 13.71,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 11,
+      "qualified": false,
+      "sponsor": "MVP",
+      "sponsorLogo": "/logo/MVP.png"
+    },
+    {
+      "rank": 80,
       "name": "Connor O'Reilly",
       "points": 115.89,
-      "pointsGain": 28,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 11,
@@ -928,7 +964,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 78,
+      "rank": 81,
       "name": "Paul McBeth",
       "points": 115,
       "pointsGain": 0,
@@ -940,19 +976,31 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 79,
-      "name": "Maico Rimmel",
-      "points": 114,
-      "pointsGain": 114,
+      "rank": 82,
+      "name": "Nikola Arkko",
+      "points": 111,
+      "pointsGain": 28.5,
       "wins": 0,
       "top10s": 0,
-      "starts": 1,
+      "starts": 2,
       "qualified": false,
       "sponsor": "",
       "sponsorLogo": ""
     },
     {
-      "rank": 80,
+      "rank": 83,
+      "name": "Elias Luukkonen",
+      "points": 108.71,
+      "pointsGain": 13.71,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 4,
+      "qualified": false,
+      "sponsor": "Discraft",
+      "sponsorLogo": "/logo/discraft.png"
+    },
+    {
+      "rank": 84,
       "name": "Chris Clemons",
       "points": 108.31,
       "pointsGain": 0,
@@ -964,19 +1012,7 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 81,
-      "name": "Joey Temali",
-      "points": 104.79,
-      "pointsGain": 6,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 10,
-      "qualified": false,
-      "sponsor": "MVP",
-      "sponsorLogo": "/logo/MVP.png"
-    },
-    {
-      "rank": 82,
+      "rank": 85,
       "name": "Jacob Courtis",
       "points": 103,
       "pointsGain": 0,
@@ -988,7 +1024,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 83,
+      "rank": 86,
+      "name": "Roland Kõur",
+      "points": 98.5,
+      "pointsGain": 23.5,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 87,
       "name": "Colten Montgomery",
       "points": 96.58,
       "pointsGain": 0,
@@ -1000,22 +1048,22 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 84,
-      "name": "Elias Luukkonen",
-      "points": 95,
-      "pointsGain": 61,
+      "rank": 88,
+      "name": "Oiva Päivänsalo",
+      "points": 93.37,
+      "pointsGain": 4.2,
       "wins": 0,
       "top10s": 0,
-      "starts": 3,
+      "starts": 6,
       "qualified": false,
-      "sponsor": "Discraft",
-      "sponsorLogo": "/logo/discraft.png"
+      "sponsor": "",
+      "sponsorLogo": ""
     },
     {
-      "rank": 85,
+      "rank": 89,
       "name": "Jacob Blair",
       "points": 90.27,
-      "pointsGain": 8,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 9,
@@ -1024,19 +1072,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 86,
-      "name": "Oiva Päivänsalo",
-      "points": 89.17,
-      "pointsGain": 41,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 5,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 87,
+      "rank": 90,
       "name": "Jeremy Koling",
       "points": 88.05,
       "pointsGain": 0,
@@ -1048,7 +1084,19 @@
       "sponsorLogo": "/logo/MVP.png"
     },
     {
-      "rank": 88,
+      "rank": 91,
+      "name": "Jakub Knápek",
+      "points": 87,
+      "pointsGain": 73,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 92,
       "name": "Matthew Alexander",
       "points": 86.88,
       "pointsGain": 0,
@@ -1060,31 +1108,31 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 89,
-      "name": "Nikola Arkko",
-      "points": 82.5,
-      "pointsGain": 82.5,
+      "rank": 93,
+      "name": "Eli Swansen",
+      "points": 76,
+      "pointsGain": 17,
       "wins": 0,
       "top10s": 0,
-      "starts": 1,
+      "starts": 9,
       "qualified": false,
       "sponsor": "",
       "sponsorLogo": ""
     },
     {
-      "rank": 90,
-      "name": "Roland Kõur",
-      "points": 75,
-      "pointsGain": 75,
+      "rank": 94,
+      "name": "Arvid Håkansson",
+      "points": 74.86,
+      "pointsGain": 40.86,
       "wins": 0,
       "top10s": 0,
-      "starts": 1,
+      "starts": 2,
       "qualified": false,
       "sponsor": "",
       "sponsorLogo": ""
     },
     {
-      "rank": 91,
+      "rank": 95,
       "name": "Drew Gibson",
       "points": 73.33,
       "pointsGain": 0,
@@ -1096,7 +1144,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 92,
+      "rank": 96,
       "name": "Fredy Meza",
       "points": 72.98,
       "pointsGain": 0,
@@ -1108,7 +1156,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 93,
+      "rank": 97,
+      "name": "Matt Bell",
+      "points": 72.05,
+      "pointsGain": 13.71,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 6,
+      "qualified": false,
+      "sponsor": "Thought Space Athletics",
+      "sponsorLogo": "/logo/thoughtspace.png"
+    },
+    {
+      "rank": 98,
       "name": "Kevin Jones",
       "points": 71.17,
       "pointsGain": 0,
@@ -1120,7 +1180,7 @@
       "sponsorLogo": "/logo/prodigy.png"
     },
     {
-      "rank": 94,
+      "rank": 99,
       "name": "Daniel Perry",
       "points": 69.67,
       "pointsGain": 0,
@@ -1132,73 +1192,13 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 95,
-      "name": "Miles Sayer",
-      "points": 67.1,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 3,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 96,
-      "name": "Wyatt Mahoney",
-      "points": 65.67,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 5,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 97,
-      "name": "Lucas Carmichael",
-      "points": 63.5,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 9,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 98,
-      "name": "Ian Krajna",
-      "points": 61.83,
-      "pointsGain": 0,
+      "rank": 100,
+      "name": "Miio Hämäläinen",
+      "points": 68.8,
+      "pointsGain": 7.8,
       "wins": 0,
       "top10s": 0,
       "starts": 2,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 99,
-      "name": "Otto Mäkinen",
-      "points": 61,
-      "pointsGain": 61,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 99,
-      "name": "Miio Hämäläinen",
-      "points": 61,
-      "pointsGain": 61,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
       "qualified": false,
       "sponsor": "",
       "sponsorLogo": ""
@@ -1208,11 +1208,11 @@
     {
       "rank": 1,
       "name": "Holyn Handley",
-      "points": 1447.33,
-      "pointsGain": 172,
+      "points": 1548.33,
+      "pointsGain": 101,
       "wins": 2,
-      "top10s": 9,
-      "starts": 10,
+      "top10s": 10,
+      "starts": 11,
       "qualified": true,
       "sponsor": "Discraft",
       "sponsorLogo": "/logo/discraft.png"
@@ -1220,11 +1220,11 @@
     {
       "rank": 2,
       "name": "Silva Saarinen",
-      "points": 1264.83,
-      "pointsGain": 129,
-      "wins": 3,
-      "top10s": 8,
-      "starts": 10,
+      "points": 1414.83,
+      "pointsGain": 150,
+      "wins": 4,
+      "top10s": 9,
+      "starts": 11,
       "qualified": true,
       "sponsor": "MVP",
       "sponsorLogo": "/logo/MVP.png"
@@ -1244,11 +1244,11 @@
     {
       "rank": 4,
       "name": "Missy Gannon",
-      "points": 1119.5,
-      "pointsGain": 194,
+      "points": 1210.5,
+      "pointsGain": 91,
       "wins": 0,
-      "top10s": 9,
-      "starts": 9,
+      "top10s": 10,
+      "starts": 10,
       "qualified": true,
       "sponsor": "Discraft",
       "sponsorLogo": "/logo/discraft.png"
@@ -1256,11 +1256,11 @@
     {
       "rank": 5,
       "name": "Ella Hansen",
-      "points": 1051,
-      "pointsGain": 210,
+      "points": 1127.75,
+      "pointsGain": 76.75,
       "wins": 0,
-      "top10s": 7,
-      "starts": 10,
+      "top10s": 8,
+      "starts": 11,
       "qualified": true,
       "sponsor": "Discmania",
       "sponsorLogo": "/logo/discmania.png"
@@ -1268,11 +1268,11 @@
     {
       "rank": 6,
       "name": "Eveliina Salonen",
-      "points": 889.67,
-      "pointsGain": 300,
+      "points": 1014.67,
+      "pointsGain": 125,
       "wins": 2,
-      "top10s": 5,
-      "starts": 6,
+      "top10s": 6,
+      "starts": 7,
       "qualified": true,
       "sponsor": "Innova",
       "sponsorLogo": "/logo/innova.jpg"
@@ -1280,11 +1280,11 @@
     {
       "rank": 7,
       "name": "Catrina Allen",
-      "points": 847,
-      "pointsGain": 84,
+      "points": 923.75,
+      "pointsGain": 76.75,
       "wins": 0,
-      "top10s": 4,
-      "starts": 11,
+      "top10s": 5,
+      "starts": 12,
       "qualified": true,
       "sponsor": "DGA",
       "sponsorLogo": "/logo/dga.jpeg"
@@ -1292,20 +1292,32 @@
     {
       "rank": 8,
       "name": "Kat Mertsch",
-      "points": 828.42,
-      "pointsGain": 90,
+      "points": 868.17,
+      "pointsGain": 39.75,
       "wins": 0,
       "top10s": 4,
-      "starts": 12,
+      "starts": 13,
       "qualified": true,
       "sponsor": "Innova",
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
       "rank": 9,
+      "name": "Henna Blomroos",
+      "points": 825.5,
+      "pointsGain": 66,
+      "wins": 1,
+      "top10s": 3,
+      "starts": 7,
+      "qualified": true,
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
+    },
+    {
+      "rank": 10,
       "name": "Emily Weatherman",
       "points": 773.33,
-      "pointsGain": 153,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 6,
       "starts": 12,
@@ -1314,19 +1326,55 @@
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 10,
-      "name": "Henna Blomroos",
-      "points": 759.5,
-      "pointsGain": 141,
-      "wins": 1,
+      "rank": 11,
+      "name": "Heidi Laine",
+      "points": 729.5,
+      "pointsGain": 66,
+      "wins": 0,
       "top10s": 3,
-      "starts": 6,
+      "starts": 12,
+      "qualified": true,
+      "sponsor": "Westside",
+      "sponsorLogo": "/logo/westside.png"
+    },
+    {
+      "rank": 12,
+      "name": "Rebecca Don",
+      "points": 715.67,
+      "pointsGain": 76.75,
+      "wins": 0,
+      "top10s": 3,
+      "starts": 10,
       "qualified": true,
       "sponsor": "Innova",
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 11,
+      "rank": 13,
+      "name": "Taylor Chocek",
+      "points": 712.46,
+      "pointsGain": 44.63,
+      "wins": 0,
+      "top10s": 3,
+      "starts": 10,
+      "qualified": true,
+      "sponsor": "Discraft",
+      "sponsorLogo": "/logo/discraft.png"
+    },
+    {
+      "rank": 14,
+      "name": "Sintija Klezberga",
+      "points": 697.75,
+      "pointsGain": 76.75,
+      "wins": 0,
+      "top10s": 6,
+      "starts": 8,
+      "qualified": true,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 15,
       "name": "Valerie Mandujano",
       "points": 673.17,
       "pointsGain": 0,
@@ -1338,34 +1386,22 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 12,
-      "name": "Taylor Chocek",
-      "points": 667.83,
-      "pointsGain": 61.5,
+      "rank": 16,
+      "name": "Anniken Kristiansen Steen",
+      "points": 653.79,
+      "pointsGain": 44.63,
       "wins": 0,
-      "top10s": 3,
-      "starts": 9,
+      "top10s": 4,
+      "starts": 7,
       "qualified": true,
-      "sponsor": "Discraft",
-      "sponsorLogo": "/logo/discraft.png"
+      "sponsor": "",
+      "sponsorLogo": ""
     },
     {
-      "rank": 13,
-      "name": "Heidi Laine",
-      "points": 663.5,
-      "pointsGain": 129,
-      "wins": 0,
-      "top10s": 3,
-      "starts": 11,
-      "qualified": true,
-      "sponsor": "Westside",
-      "sponsorLogo": "/logo/westside.png"
-    },
-    {
-      "rank": 14,
+      "rank": 17,
       "name": "Paige Pierce",
       "points": 650.42,
-      "pointsGain": 96,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 2,
       "starts": 8,
@@ -1374,52 +1410,16 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 15,
-      "name": "Rebecca Don",
-      "points": 638.92,
-      "pointsGain": 78,
-      "wins": 0,
-      "top10s": 2,
-      "starts": 9,
-      "qualified": true,
-      "sponsor": "Innova",
-      "sponsorLogo": "/logo/innova.jpg"
-    },
-    {
-      "rank": 16,
-      "name": "Sintija Klezberga",
-      "points": 621,
-      "pointsGain": 182,
-      "wins": 0,
-      "top10s": 5,
-      "starts": 7,
-      "qualified": true,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 17,
+      "rank": 18,
       "name": "Eliezra Midtlyng",
-      "points": 617.08,
-      "pointsGain": 108,
+      "points": 645.58,
+      "pointsGain": 28.5,
       "wins": 0,
       "top10s": 2,
-      "starts": 12,
+      "starts": 13,
       "qualified": true,
       "sponsor": "DGA",
       "sponsorLogo": "/logo/dga.jpeg"
-    },
-    {
-      "rank": 18,
-      "name": "Anniken Kristiansen Steen",
-      "points": 609.17,
-      "pointsGain": 164,
-      "wins": 0,
-      "top10s": 4,
-      "starts": 6,
-      "qualified": true,
-      "sponsor": "",
-      "sponsorLogo": ""
     },
     {
       "rank": 19,
@@ -1447,6 +1447,18 @@
     },
     {
       "rank": 21,
+      "name": "Madison Walker",
+      "points": 568.83,
+      "pointsGain": 30.75,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 10,
+      "qualified": false,
+      "sponsor": "MVP",
+      "sponsorLogo": "/logo/MVP.png"
+    },
+    {
+      "rank": 22,
       "name": "Hanna Huynh",
       "points": 561,
       "pointsGain": 0,
@@ -1458,7 +1470,7 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 22,
+      "rank": 23,
       "name": "Sofia Donnecke",
       "points": 547.5,
       "pointsGain": 0,
@@ -1468,18 +1480,6 @@
       "qualified": false,
       "sponsor": "",
       "sponsorLogo": ""
-    },
-    {
-      "rank": 23,
-      "name": "Madison Walker",
-      "points": 538.08,
-      "pointsGain": 84,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 9,
-      "qualified": false,
-      "sponsor": "MVP",
-      "sponsorLogo": "/logo/MVP.png"
     },
     {
       "rank": 24,
@@ -1507,6 +1507,18 @@
     },
     {
       "rank": 26,
+      "name": "Anneli Tõugjas-Männiste",
+      "points": 409.5,
+      "pointsGain": 58.5,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 6,
+      "qualified": false,
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
+    },
+    {
+      "rank": 27,
       "name": "Rebecca Cox",
       "points": 397,
       "pointsGain": 0,
@@ -1518,10 +1530,10 @@
       "sponsorLogo": "/logo/latitude64.png"
     },
     {
-      "rank": 27,
+      "rank": 28,
       "name": "Iida Lehtomäki",
       "points": 387.5,
-      "pointsGain": 153,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 2,
       "starts": 3,
@@ -1530,7 +1542,19 @@
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 28,
+      "rank": 29,
+      "name": "Chandler Reigh",
+      "points": 374,
+      "pointsGain": 36,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 8,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 30,
       "name": "Alexis Mandujano",
       "points": 352.5,
       "pointsGain": 0,
@@ -1542,19 +1566,7 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 29,
-      "name": "Anneli Tõugjas-Männiste",
-      "points": 351,
-      "pointsGain": 69,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 5,
-      "qualified": false,
-      "sponsor": "Innova",
-      "sponsorLogo": "/logo/innova.jpg"
-    },
-    {
-      "rank": 30,
+      "rank": 31,
       "name": "Dani K. Hart",
       "points": 349.5,
       "pointsGain": 0,
@@ -1566,22 +1578,22 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 31,
-      "name": "Chandler Reigh",
-      "points": 338,
-      "pointsGain": 61.5,
+      "rank": 32,
+      "name": "Amanda Lennartsson",
+      "points": 349,
+      "pointsGain": 86,
       "wins": 0,
-      "top10s": 0,
-      "starts": 7,
+      "top10s": 1,
+      "starts": 4,
       "qualified": false,
       "sponsor": "",
       "sponsorLogo": ""
     },
     {
-      "rank": 32,
+      "rank": 33,
       "name": "Jennifer Smiley",
       "points": 337.75,
-      "pointsGain": 66,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 11,
@@ -1590,7 +1602,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 33,
+      "rank": 34,
+      "name": "Kristýna Jurčíková",
+      "points": 331,
+      "pointsGain": 101,
+      "wins": 0,
+      "top10s": 2,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 35,
       "name": "Jennifer Allen",
       "points": 313,
       "pointsGain": 0,
@@ -1602,7 +1626,19 @@
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 34,
+      "rank": 36,
+      "name": "Julia Fors",
+      "points": 308.5,
+      "pointsGain": 58.5,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 37,
       "name": "Macie Velediaz",
       "points": 294.67,
       "pointsGain": 0,
@@ -1614,7 +1650,7 @@
       "sponsorLogo": "/logo/dynamicdiscs.png"
     },
     {
-      "rank": 35,
+      "rank": 38,
       "name": "Kelley Foster",
       "points": 280.5,
       "pointsGain": 0,
@@ -1626,19 +1662,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 36,
-      "name": "Amanda Lennartsson",
-      "points": 263,
-      "pointsGain": 141,
+      "rank": 39,
+      "name": "Ida Emilie Nesse",
+      "points": 263.5,
+      "pointsGain": 51,
       "wins": 0,
-      "top10s": 0,
-      "starts": 3,
+      "top10s": 2,
+      "starts": 4,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Discmania",
+      "sponsorLogo": "/logo/discmania.png"
     },
     {
-      "rank": 37,
+      "rank": 40,
       "name": "Violet Main",
       "points": 250,
       "pointsGain": 0,
@@ -1650,19 +1686,7 @@
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 37,
-      "name": "Julia Fors",
-      "points": 250,
-      "pointsGain": 250,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 39,
+      "rank": 41,
       "name": "Maria Oliva",
       "points": 237,
       "pointsGain": 0,
@@ -1674,7 +1698,7 @@
       "sponsorLogo": "/logo/thoughtspace.png"
     },
     {
-      "rank": 40,
+      "rank": 42,
       "name": "Trinity Bryant",
       "points": 233,
       "pointsGain": 0,
@@ -1686,19 +1710,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 41,
-      "name": "Kristýna Jurčíková",
-      "points": 230,
-      "pointsGain": 230,
-      "wins": 0,
-      "top10s": 1,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 42,
+      "rank": 43,
       "name": "Erika Stinchcomb",
       "points": 222.25,
       "pointsGain": 0,
@@ -1710,7 +1722,19 @@
       "sponsorLogo": "/logo/thoughtspace.png"
     },
     {
-      "rank": 43,
+      "rank": 44,
+      "name": "Matilda Ringbom",
+      "points": 217,
+      "pointsGain": 115,
+      "wins": 0,
+      "top10s": 1,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 45,
       "name": "Holly Finley",
       "points": 214,
       "pointsGain": 0,
@@ -1722,19 +1746,7 @@
       "sponsorLogo": "/logo/innova.jpg"
     },
     {
-      "rank": 44,
-      "name": "Ida Emilie Nesse",
-      "points": 212.5,
-      "pointsGain": 55.5,
-      "wins": 0,
-      "top10s": 2,
-      "starts": 3,
-      "qualified": false,
-      "sponsor": "Discmania",
-      "sponsorLogo": "/logo/discmania.png"
-    },
-    {
-      "rank": 45,
+      "rank": 46,
       "name": "MJ Gager",
       "points": 160.5,
       "pointsGain": 0,
@@ -1746,7 +1758,31 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 46,
+      "rank": 47,
+      "name": "Olivia Kindstedt",
+      "points": 156.75,
+      "pointsGain": 39.75,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
+    },
+    {
+      "rank": 48,
+      "name": "Elizabete Peksena",
+      "points": 153,
+      "pointsGain": 36,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 49,
       "name": "Therese Cuevas",
       "points": 143,
       "pointsGain": 0,
@@ -1758,7 +1794,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 47,
+      "rank": 50,
       "name": "Kylie Kohut",
       "points": 135,
       "pointsGain": 0,
@@ -1770,7 +1806,31 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 48,
+      "rank": 51,
+      "name": "Lauren Butler",
+      "points": 132.25,
+      "pointsGain": 25.5,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 8,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 52,
+      "name": "Kaidi Allsalu",
+      "points": 128.63,
+      "pointsGain": 44.63,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 53,
       "name": "Shelby Cowen",
       "points": 127,
       "pointsGain": 0,
@@ -1782,10 +1842,10 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 49,
+      "rank": 54,
       "name": "Ratana McMahon",
       "points": 125.25,
-      "pointsGain": 24,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 8,
@@ -1794,31 +1854,19 @@
       "sponsorLogo": "/logo/discmania.png"
     },
     {
-      "rank": 50,
-      "name": "Olivia Kindstedt",
-      "points": 117,
-      "pointsGain": 117,
+      "rank": 55,
+      "name": "Keiti Tätte",
+      "points": 119.63,
+      "pointsGain": 44.63,
       "wins": 0,
       "top10s": 0,
-      "starts": 1,
+      "starts": 2,
       "qualified": false,
       "sponsor": "Latitude 64",
       "sponsorLogo": "/logo/latitude64.png"
     },
     {
-      "rank": 50,
-      "name": "Elizabete Peksena",
-      "points": 117,
-      "pointsGain": 117,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 52,
+      "rank": 56,
       "name": "Jordan Lynds",
       "points": 113.25,
       "pointsGain": 0,
@@ -1830,7 +1878,7 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 53,
+      "rank": 57,
       "name": "Alecia Hinkson",
       "points": 112.5,
       "pointsGain": 0,
@@ -1842,7 +1890,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 54,
+      "rank": 58,
       "name": "Alexis Kerman",
       "points": 111.5,
       "pointsGain": 0,
@@ -1854,7 +1902,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 55,
+      "rank": 59,
       "name": "Cynthia Ricciotti",
       "points": 107.25,
       "pointsGain": 0,
@@ -1866,31 +1914,7 @@
       "sponsorLogo": "/logo/discmania.png"
     },
     {
-      "rank": 56,
-      "name": "Lauren Butler",
-      "points": 106.75,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 7,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 57,
-      "name": "Matilda Ringbom",
-      "points": 102,
-      "pointsGain": 102,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 58,
+      "rank": 60,
       "name": "Sarah Hokom",
       "points": 101,
       "pointsGain": 0,
@@ -1902,7 +1926,19 @@
       "sponsorLogo": "/logo/MVP.png"
     },
     {
-      "rank": 59,
+      "rank": 61,
+      "name": "Saga Dahlstedt",
+      "points": 99,
+      "pointsGain": 27,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 62,
       "name": "Cadence Burge",
       "points": 95.25,
       "pointsGain": 0,
@@ -1914,7 +1950,7 @@
       "sponsorLogo": "/logo/discmania.png"
     },
     {
-      "rank": 60,
+      "rank": 63,
       "name": "Tailey Rowley",
       "points": 92.25,
       "pointsGain": 0,
@@ -1926,7 +1962,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 61,
+      "rank": 64,
       "name": "Addison Woodard",
       "points": 89.75,
       "pointsGain": 0,
@@ -1938,7 +1974,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 62,
+      "rank": 65,
       "name": "Morgan Lynds",
       "points": 87.75,
       "pointsGain": 0,
@@ -1950,19 +1986,7 @@
       "sponsorLogo": "/logo/discraft.png"
     },
     {
-      "rank": 63,
-      "name": "Kaidi Allsalu",
-      "points": 84,
-      "pointsGain": 84,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 64,
+      "rank": 66,
       "name": "Madison Tomaino",
       "points": 83.5,
       "pointsGain": 0,
@@ -1974,7 +1998,19 @@
       "sponsorLogo": "/logo/westside.png"
     },
     {
-      "rank": 65,
+      "rank": 67,
+      "name": "Elva-Kate Preston",
+      "points": 83.25,
+      "pointsGain": 23.25,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 4,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 68,
       "name": "Ann Deputy",
       "points": 80.25,
       "pointsGain": 0,
@@ -1986,7 +2022,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 66,
+      "rank": 69,
+      "name": "Kaire Tekku",
+      "points": 78.75,
+      "pointsGain": 23.25,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 70,
       "name": "Zoe AnDyke",
       "points": 77,
       "pointsGain": 0,
@@ -1998,31 +2046,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 67,
-      "name": "Keiti Tätte",
+      "rank": 71,
+      "name": "María Eldey Kristínardóttir",
       "points": 75,
-      "pointsGain": 75,
+      "pointsGain": 36,
       "wins": 0,
       "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "Latitude 64",
-      "sponsorLogo": "/logo/latitude64.png"
-    },
-    {
-      "rank": 68,
-      "name": "Saga Dahlstedt",
-      "points": 72,
-      "pointsGain": 72,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
+      "starts": 2,
       "qualified": false,
       "sponsor": "",
       "sponsorLogo": ""
     },
     {
-      "rank": 69,
+      "rank": 72,
       "name": "Ali Smith",
       "points": 66,
       "pointsGain": 0,
@@ -2034,7 +2070,19 @@
       "sponsorLogo": "/logo/thoughtspace.png"
     },
     {
-      "rank": 70,
+      "rank": 72,
+      "name": "Netta Leppäaho",
+      "points": 66,
+      "pointsGain": 66,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 1,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 74,
       "name": "Nathalie Ortiz",
       "points": 64.25,
       "pointsGain": 0,
@@ -2046,7 +2094,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 71,
+      "rank": 75,
       "name": "Sheliemae Lai",
       "points": 62,
       "pointsGain": 0,
@@ -2058,7 +2106,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 72,
+      "rank": 76,
       "name": "Shiru Liu",
       "points": 61.5,
       "pointsGain": 0,
@@ -2070,19 +2118,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 73,
-      "name": "Elva-Kate Preston",
-      "points": 60,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 3,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 74,
+      "rank": 77,
       "name": "Emily Yale",
       "points": 59,
       "pointsGain": 0,
@@ -2094,7 +2130,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 75,
+      "rank": 78,
       "name": "Chantel Budinsky",
       "points": 58.5,
       "pointsGain": 0,
@@ -2106,10 +2142,10 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 76,
-      "name": "Kaire Tekku",
-      "points": 55.5,
-      "pointsGain": 55.5,
+      "rank": 79,
+      "name": "Josefine Johansson",
+      "points": 54,
+      "pointsGain": 54,
       "wins": 0,
       "top10s": 0,
       "starts": 1,
@@ -2118,7 +2154,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 77,
+      "rank": 80,
       "name": "Leah Tsinajinnie",
       "points": 53,
       "pointsGain": 0,
@@ -2130,7 +2166,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 78,
+      "rank": 81,
+      "name": "Ella Tejler",
+      "points": 52.5,
+      "pointsGain": 18,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 2,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 81,
       "name": "Peyton Kohut",
       "points": 52.5,
       "pointsGain": 0,
@@ -2142,10 +2190,10 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 79,
+      "rank": 83,
       "name": "Marie Kielas",
       "points": 51,
-      "pointsGain": 51,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 1,
@@ -2154,7 +2202,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 80,
+      "rank": 84,
       "name": "Jessica Erickson",
       "points": 49,
       "pointsGain": 0,
@@ -2166,10 +2214,10 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 81,
+      "rank": 85,
       "name": "Katka Bodová",
       "points": 48,
-      "pointsGain": 48,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 1,
@@ -2178,10 +2226,10 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 82,
+      "rank": 86,
       "name": "Kristi Unt",
       "points": 45,
-      "pointsGain": 45,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 1,
@@ -2190,7 +2238,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 83,
+      "rank": 87,
       "name": "Lykke Lorentzen",
       "points": 43,
       "pointsGain": 0,
@@ -2202,10 +2250,10 @@
       "sponsorLogo": "/logo/thoughtspace.png"
     },
     {
-      "rank": 84,
+      "rank": 88,
       "name": "Maarja Soasepp",
       "points": 42,
-      "pointsGain": 42,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 1,
@@ -2214,7 +2262,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 85,
+      "rank": 89,
       "name": "Nina Bennett",
       "points": 40.5,
       "pointsGain": 0,
@@ -2226,19 +2274,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 86,
-      "name": "María Eldey Kristínardóttir",
-      "points": 39,
-      "pointsGain": 39,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 87,
+      "rank": 90,
       "name": "Ariel Walker",
       "points": 38.25,
       "pointsGain": 0,
@@ -2250,7 +2286,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 88,
+      "rank": 91,
       "name": "Eden Fletcher",
       "points": 38,
       "pointsGain": 0,
@@ -2262,7 +2298,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 89,
+      "rank": 92,
       "name": "Casey Pennington",
       "points": 37.5,
       "pointsGain": 0,
@@ -2274,10 +2310,10 @@
       "sponsorLogo": "/logo/discmania.png"
     },
     {
-      "rank": 90,
+      "rank": 93,
       "name": "Kersti Miller",
       "points": 34.5,
-      "pointsGain": 34.5,
+      "pointsGain": 0,
       "wins": 0,
       "top10s": 0,
       "starts": 1,
@@ -2286,19 +2322,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 90,
-      "name": "Ella Tejler",
-      "points": 34.5,
-      "pointsGain": 34.5,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 92,
+      "rank": 94,
       "name": "Candyce Boyce",
       "points": 33,
       "pointsGain": 0,
@@ -2310,7 +2334,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 93,
+      "rank": 94,
+      "name": "Jenny Larsson",
+      "points": 33,
+      "pointsGain": 33,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 1,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 96,
       "name": "Lindsey Maas",
       "points": 32.25,
       "pointsGain": 0,
@@ -2322,7 +2358,19 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 94,
+      "rank": 97,
+      "name": "Sofie Björlycke",
+      "points": 30.75,
+      "pointsGain": 30.75,
+      "wins": 0,
+      "top10s": 0,
+      "starts": 1,
+      "qualified": false,
+      "sponsor": "",
+      "sponsorLogo": ""
+    },
+    {
+      "rank": 98,
       "name": "Rebecca Minnick",
       "points": 29,
       "pointsGain": 0,
@@ -2334,7 +2382,7 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 94,
+      "rank": 98,
       "name": "Hannah Kellar",
       "points": 29,
       "pointsGain": 0,
@@ -2346,57 +2394,9 @@
       "sponsorLogo": ""
     },
     {
-      "rank": 96,
+      "rank": 100,
       "name": "Brit Hamburg",
       "points": 28.5,
-      "pointsGain": 28.5,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 96,
-      "name": "Una Lokmane",
-      "points": 28.5,
-      "pointsGain": 28.5,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 98,
-      "name": "Stephanie Vincent",
-      "points": 28,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "Mint",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 99,
-      "name": "Brook Johnson",
-      "points": 24,
-      "pointsGain": 0,
-      "wins": 0,
-      "top10s": 0,
-      "starts": 1,
-      "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
-    },
-    {
-      "rank": 99,
-      "name": "Amelia Saechao",
-      "points": 24,
       "pointsGain": 0,
       "wins": 0,
       "top10s": 0,

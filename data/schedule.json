@@ -1,5 +1,5 @@
 {
-  "updated": "2026-06-28",
+  "updated": "2026-06-29",
   "season": 2026,
   "events": [
     {
@@ -128,10 +128,10 @@
       "name": "Swedish Open",
       "loc": "Borås, Sweden",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Jun 26–28",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Eagle McMahon",
+      "winner_fpo": "Silva Saarinen",
       "pdga_id": 96411
     },
     {
