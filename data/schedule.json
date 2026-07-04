@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-03",
+  "updated": "2026-07-04",
   "season": 2026,
   "events": [
     {
@@ -140,7 +140,7 @@
       "name": "Ale Open",
       "loc": "Ale DGC · Nol, Sweden",
       "tier": "Elite Series",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Jul 3–5",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -152,7 +152,7 @@
       "name": "Heinola Open",
       "loc": "Heinola, Finland",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Jul 10–12",
       "winner_mpo": null,
       "winner_fpo": null,
