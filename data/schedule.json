@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-06",
+  "updated": "2026-07-07",
   "season": 2026,
   "events": [
     {
@@ -142,8 +142,8 @@
       "tier": "Elite Series",
       "status": "done",
       "dates": "Jul 3–5",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Ricky Wysocki",
+      "winner_fpo": "Eveliina Salonen",
       "pdga_id": 96412
     },
     {
