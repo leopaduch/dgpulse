@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-10",
+  "updated": "2026-07-11",
   "season": 2026,
   "events": [
     {
@@ -152,7 +152,7 @@
       "name": "Heinola Open",
       "loc": "Heinola, Finland",
       "tier": "Elite Series",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Jul 10–12",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -164,7 +164,7 @@
       "name": "US Women's Disc Golf Championship",
       "loc": "Salt Lake City, UT",
       "tier": "PDGA Major",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Jul 16–19",
       "winner_mpo": null,
       "winner_fpo": null,
