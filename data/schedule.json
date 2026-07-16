@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-12",
+  "updated": "2026-07-16",
   "season": 2026,
   "events": [
     {
@@ -152,7 +152,7 @@
       "name": "Heinola Open",
       "loc": "Heinola, Finland",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Jul 10–12",
       "winner_mpo": null,
       "winner_fpo": null,
