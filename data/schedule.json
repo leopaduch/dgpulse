@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-16",
+  "updated": "2026-07-21",
   "season": 2026,
   "events": [
     {
@@ -164,10 +164,10 @@
       "name": "US Women's Disc Golf Championship",
       "loc": "Salt Lake City, UT",
       "tier": "PDGA Major",
-      "status": "next",
+      "status": "done",
       "dates": "Jul 16–19",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Paul Ulibarri",
+      "winner_fpo": "Ohn Scoggins",
       "pdga_id": null
     },
     {
@@ -176,7 +176,7 @@
       "name": "Ledgestone Open",
       "loc": "Northwood Park · Peoria, IL",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Jul 30 – Aug 2",
       "winner_mpo": null,
       "winner_fpo": null,
