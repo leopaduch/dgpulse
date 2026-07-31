@@ -1,5 +1,5 @@
 {
-  "updated": "2026-07-30",
+  "updated": "2026-07-31",
   "season": 2026,
   "events": [
     {
@@ -176,7 +176,7 @@
       "name": "Ledgestone Open",
       "loc": "Northwood Park · Peoria, IL",
       "tier": "Elite Series+",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Jul 30 – Aug 2",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -188,7 +188,7 @@
       "name": "Discmania Challenge",
       "loc": "TBD",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Aug 7–9",
       "winner_mpo": null,
       "winner_fpo": null,
