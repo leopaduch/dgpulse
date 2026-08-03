@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-02",
+  "updated": "2026-08-03",
   "season": 2026,
   "events": [
     {
@@ -154,8 +154,8 @@
       "tier": "Elite Series",
       "status": "done",
       "dates": "Jul 10–12",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Gannon Buhr",
+      "winner_fpo": "–",
       "pdga_id": 96413
     },
     {
@@ -176,10 +176,10 @@
       "name": "Ledgestone Open",
       "loc": "Northwood Park · Peoria, IL",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Jul 30 – Aug 2",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Luke Taylor",
+      "winner_fpo": "Eveliina Salonen",
       "pdga_id": 96414
     },
     {
