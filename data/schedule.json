@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-07",
+  "updated": "2026-08-08",
   "season": 2026,
   "events": [
     {
@@ -188,7 +188,7 @@
       "name": "Discmania Challenge",
       "loc": "TBD",
       "tier": "Elite Series",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Aug 7–9",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -200,7 +200,7 @@
       "name": "LWS Open at Idlewild",
       "loc": "Idlewild · Burlington, KY",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Aug 14–17",
       "winner_mpo": null,
       "winner_fpo": null,
