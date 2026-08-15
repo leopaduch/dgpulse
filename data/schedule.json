@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-14",
+  "updated": "2026-08-15",
   "season": 2026,
   "events": [
     {
@@ -190,8 +190,8 @@
       "tier": "Elite Series",
       "status": "done",
       "dates": "Aug 7–9",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Evan Smith",
+      "winner_fpo": "Ella Hansen",
       "pdga_id": 96415
     },
     {
@@ -200,7 +200,7 @@
       "name": "LWS Open at Idlewild",
       "loc": "Idlewild · Burlington, KY",
       "tier": "Elite Series",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Aug 14–17",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -212,7 +212,7 @@
       "name": "PDGA Pro World Championships",
       "loc": "Kensington Metropark · Milford, MI",
       "tier": "PDGA Major",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Aug 26–30",
       "winner_mpo": null,
       "winner_fpo": null,
