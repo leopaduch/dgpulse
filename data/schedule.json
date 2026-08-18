@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-17",
+  "updated": "2026-08-18",
   "season": 2026,
   "events": [
     {
@@ -200,7 +200,7 @@
       "name": "LWS Open at Idlewild",
       "loc": "Idlewild · Burlington, KY",
       "tier": "Elite Series",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Aug 14–17",
       "winner_mpo": null,
       "winner_fpo": null,
