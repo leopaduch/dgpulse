@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-26",
+  "updated": "2026-08-27",
   "season": 2026,
   "events": [
     {
@@ -212,7 +212,7 @@
       "name": "PDGA Pro World Championships",
       "loc": "Kensington Metropark · Milford, MI",
       "tier": "PDGA Major",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Aug 26–30",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -224,7 +224,7 @@
       "name": "Discraft Great Lakes Open",
       "loc": "Toboggan · Milford, MI",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Sep 4–7",
       "winner_mpo": null,
       "winner_fpo": null,
