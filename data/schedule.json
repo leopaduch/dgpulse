@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-30",
+  "updated": "2026-08-31",
   "season": 2026,
   "events": [
     {
@@ -212,10 +212,10 @@
       "name": "PDGA Pro World Championships",
       "loc": "Kensington Metropark · Milford, MI",
       "tier": "PDGA Major",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Aug 26–30",
-      "winner_mpo": null,
-      "winner_fpo": null,
+      "winner_mpo": "Silas Schultz",
+      "winner_fpo": "Eveliina Salonen",
       "pdga_id": null
     },
     {
