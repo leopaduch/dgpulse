@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31",
+  "updated": "2026-09-01",
   "week": "2026-14",
   "note": "After Queen City Classic — 3 events complete",
   "MPO": [
@@ -1526,8 +1526,8 @@
       "top10s": 3,
       "starts": 4,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Latitude 64",
+      "sponsorLogo": "/logo/latitude64.png"
     },
     {
       "rank": 28,
@@ -1550,7 +1550,7 @@
       "top10s": 2,
       "starts": 15,
       "qualified": false,
-      "sponsor": "",
+      "sponsor": "Infinite",
       "sponsorLogo": ""
     },
     {
@@ -1562,8 +1562,8 @@
       "top10s": 2,
       "starts": 7,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Discraft",
+      "sponsorLogo": "/logo/discraft.png"
     },
     {
       "rank": 31,
@@ -1622,8 +1622,8 @@
       "top10s": 2,
       "starts": 3,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Discmania",
+      "sponsorLogo": "/logo/discmania.png"
     },
     {
       "rank": 36,
@@ -1682,8 +1682,8 @@
       "top10s": 1,
       "starts": 7,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
     },
     {
       "rank": 41,
