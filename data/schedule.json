@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "season": 2026,
   "events": [
     {
@@ -224,7 +224,7 @@
       "name": "Discraft Great Lakes Open",
       "loc": "Toboggan · Milford, MI",
       "tier": "Elite Series+",
-      "status": "next",
+      "status": "upcoming",
       "dates": "Sep 4–7",
       "winner_mpo": null,
       "winner_fpo": null,
@@ -236,7 +236,7 @@
       "name": "Green Mountain Championship",
       "loc": "Brewster Ridge · Stowe, VT",
       "tier": "Playoffs",
-      "status": "upcoming",
+      "status": "next",
       "dates": "Sep 18–21",
       "winner_mpo": null,
       "winner_fpo": null,

@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04",
+  "updated": "2026-09-05",
   "week": "2026-14",
   "note": "After Queen City Classic — 3 events complete",
   "MPO": [
@@ -216,8 +216,8 @@
       "top10s": 2,
       "starts": 18,
       "qualified": true,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "DGA",
+      "sponsorLogo": "/logo/dga.jpeg"
     },
     {
       "rank": 19,
@@ -408,8 +408,8 @@
       "top10s": 2,
       "starts": 18,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Prodigy",
+      "sponsorLogo": "/logo/prodigy.png"
     },
     {
       "rank": 35,
@@ -936,8 +936,8 @@
       "top10s": 0,
       "starts": 7,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Westside",
+      "sponsorLogo": "/logo/westside.png"
     },
     {
       "rank": 79,
@@ -972,8 +972,8 @@
       "top10s": 1,
       "starts": 5,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Prodigy",
+      "sponsorLogo": "/logo/prodigy.png"
     },
     {
       "rank": 82,
@@ -1742,8 +1742,8 @@
       "top10s": 0,
       "starts": 4,
       "qualified": false,
-      "sponsor": "",
-      "sponsorLogo": ""
+      "sponsor": "Innova",
+      "sponsorLogo": "/logo/innova.jpg"
     },
     {
       "rank": 46,
