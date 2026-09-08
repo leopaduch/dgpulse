@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-07",
+  "updated": "2026-09-08",
   "season": 2026,
   "events": [
     {
@@ -224,7 +224,7 @@
       "name": "Discraft Great Lakes Open",
       "loc": "Toboggan · Milford, MI",
       "tier": "Elite Series+",
-      "status": "upcoming",
+      "status": "done",
       "dates": "Sep 4–7",
       "winner_mpo": null,
       "winner_fpo": null,
